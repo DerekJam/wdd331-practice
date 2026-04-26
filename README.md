@@ -1,8 +1,8 @@
 # WDD 331R Practice Site
 
-**Student:** Your Full Name
-**Semester:** Current Semester and Year
-**Live Site:** [View Site](https://your-username.github.io/your-repo-name/)
+**Student:** Derek Steele
+**Semester:** Spring 2026
+**Live Site:** [View Site](https://derekjam.github.io/wdd331-practice/)
 
 ## About
 

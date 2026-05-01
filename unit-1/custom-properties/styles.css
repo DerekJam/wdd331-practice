@@ -119,7 +119,13 @@ body {
 .card {
     /* background, padding, border-radius, shadow */
     /* Use a var() with a fallback value here. */
-
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    padding: var(--space-md);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    font-family: var(--font-body);
+}
     .card-tag {
         /* small label: font-size, padding, background, border-radius */
     }

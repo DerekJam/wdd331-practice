@@ -6,31 +6,31 @@
    ======================================== */
 :root {
     /* Colors */
-      --color-primary: #1d4e89;
-      --color-accent: ;
-      --color-background: ;
-      --color-text: ;
+      --color-primary: #00cccc;
+      --color-accent: #66ff33;
+      --color-background: #0000ff;
+      --color-text: #ffffff;
       --
       --
       --
 
     /* Spacing */
-      --space-xs: 0.25rem;
-      --space-sm: 0.5rem;
-      --space-md: 1rem;
-      --space-lg: 2rem;
-      --space-xl: 4rem;
+      --space-xs: 0.50rem;
+      --space-sm: 0.75rem;
+      --space-md: 1.25rem;
+      --space-lg: 2.50rem;
+      --space-xl: 5rem;
   
     /* Typography */ 
-      font family
-      font size
-      line height
-      font weight
-      letter spacing
-  
+      --font-body: 'Verdana', system-ui, sans-serif;
+      --font-size: 1.50rem;
+      --line-height: 1.75rem;
+      --font-weight: 1.0rem;
+      --letter-spacing: .25rem; 
+
     /* Borders */  
       --radius: 0.50rem;
-      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 /* ========================================

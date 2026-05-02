@@ -154,7 +154,7 @@ body {
     /* Use a var() with a fallback value here. */
     border: 3px solid red;
     background-color: var(--color-lightblue);
-    color: var(--color-lightblue);
+    color: var(--color-text-sections-darkblue);
     padding: var(--space-md);
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);
@@ -167,12 +167,13 @@ body {
 
     h3 {
         /* card title styles */
-        color: var(--color-text-sections-darkblue);
+        color: var(--color-hoveringlinks-magenta);
     }
+
 
     p {
         /* card body text */
-               color: var(--color-hoveringlinks-magenta);
+               color: var(--color-text-sections-darkblue);
     }
 
     .card-meta {

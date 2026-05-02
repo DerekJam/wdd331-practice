@@ -96,6 +96,7 @@ body {
 
     h1 {
         /* fluid font size */
+       font-size: clamp(var(1.5rem, 2.0rem, 2.5rem));
     }
 
     p {

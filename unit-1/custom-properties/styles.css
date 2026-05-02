@@ -6,10 +6,10 @@
    ======================================== */
 :root {
     /* Colors */
-      --color-primary-lightblue: #00cccc;
-      --color-accent-lightgreen: #66ff33;
+      --color-primary-lightblue: #ff0000;
+      --color-accent-lightgreen: #800080;
       --color-background-black: #000000;
-      --color-text-lightgreen: #66ff33;
+      --color-text-lightgreen: #ffff00;
       --color-text-white: #ffffff;
       --color-links-gray: #b8b6b6;
       --color-hover-magenta: #b8b6b8;

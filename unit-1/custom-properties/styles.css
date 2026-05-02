@@ -7,12 +7,11 @@
 :root {
     /* Colors */
       --color-primary-lightblue: #ff0000;
-      --color-accent-lightgreen: #800080;
+      --color-card-purple: #800080;
       --color-background-black: #000000;
       --color-text-lightgreen: #ffff00;
       --color-text-white: #ffffff;
       --color-links-gray: #b8b6b6;
-      --color-hover-magenta: #b8b6b8;
       --color-header-text-darkblue: #0000ff;
       --color-header-bg: #bcbf04;
       --color-body-bg: #05caed;
@@ -75,8 +74,9 @@ body {
        
         &:hover {
             /* hover color from tokens */
-                     color: var(--color-hover-magenta);
+         color: var(--color-text-white);
 
+           
         }
     }
 }
@@ -105,8 +105,8 @@ body {
 
     h1 {
         /* fluid font size */
-       color: var(color-accent-lightgreen);
-       background-color: var(color-hover-magenta);
+       color: var(color-links-gray);
+       background-color: var(color-text-white);
        font-size: clamp(var(1.5rem, 2.0rem, 2.5rem));
     }
 
@@ -153,7 +153,7 @@ body {
     /* background, padding, border-radius, shadow */
     /* Use a var() with a fallback value here. */
     background-color: var(--color-body-bg);
-    color: var(--color-accent-lightgreen);
+    color: var(--color-card-purple);
     padding: var(--space-md);
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);

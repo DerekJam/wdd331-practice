@@ -163,10 +163,12 @@ body {
 
     h3 {
         /* card title styles */
+        color: var(--color-hoveringlinks-magenta);
     }
 
     p {
         /* card body text */
+               color: var(--color-hoveringlinks-magenta);
     }
 
     .card-meta {

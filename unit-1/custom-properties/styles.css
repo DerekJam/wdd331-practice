@@ -8,13 +8,13 @@
     /* Colors */
       --color-primary-lightblue: #00cccc;
       --color-accent-lightgreen: #66ff33;
-      --color-background-darkblue: #0000ff;
+      --color-background-black: #000000;
       --color-text-white: #ffffff;
       --color-links-gray: #b8b6b6;
       --color-hover-magenta: #b8b6b8;
       --color-header-text-darkblue: #0000ff;
-      --color-header-bg: #05caed;
-      --color-body-bg: #edd205;
+      --color-header-bg: #edd205;
+      --color-body-bg: #05caed;
 
     /* Spacing */
       --space-xs: 0.50rem;
@@ -60,7 +60,7 @@
 body {
     /* font family, color, background, line-height, padding */
     /* Use clamp() for padding to make it fluid. */
-    background-color: var(--color-background-darkblue);
+    background-color: var(--color-background-black);
     color: var(--color-text-white);
     padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
     border-radius: var(--radius);

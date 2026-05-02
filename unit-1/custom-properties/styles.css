@@ -125,7 +125,7 @@ body {
 
     h2 {
         /* section heading styles */
-          background-color: var(--color-hoveringlinks-magenta);
+          background-color: var(--color-background-sectionheaders-darkgreen);
           color: var(--color-hoveringlinks-magenta);
           padding: var(--space-md);
           border-radius: var(--radius);

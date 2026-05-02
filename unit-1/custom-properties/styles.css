@@ -151,8 +151,8 @@ body {
 .card {
     /* background, padding, border-radius, shadow */
     /* Use a var() with a fallback value here. */
-    background-color: var(color-background-sections-lightgreen);
-    color: var(color-background-sections-lightgreen);
+    background-color: var(--color-background-sectionheaders-darkgreen);
+    color: var(--color-text-sectionheaders-yellow);
     padding: var(--space-md);
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);

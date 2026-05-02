@@ -9,6 +9,7 @@
       --color-primary-lightblue: #00cccc;
       --color-accent-lightgreen: #66ff33;
       --color-background-black: #000000;
+      --color-text-lightgreen: #66ff33;
       --color-text-white: #ffffff;
       --color-links-gray: #b8b6b6;
       --color-hover-magenta: #b8b6b8;
@@ -105,11 +106,13 @@ body {
     h1 {
         /* fluid font size */
        color: var(color-accent-lightgreen);
+       background-color: var(color-hover-magenta);
        font-size: clamp(var(1.5rem, 2.0rem, 2.5rem));
     }
 
     p {
         /* muted text color, spacing */
+              color: var(color-primary-lightblue);
     }
 }
 

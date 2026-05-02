@@ -19,6 +19,7 @@
       --space-md: 1.25rem;
       --space-lg: 2.50rem;
       --space-xl: 5rem;
+      --space-flex: 2vw;
   
     /* Typography */ 
       --font-body: 'Verdana', system-ui, sans-serif;
@@ -92,7 +93,9 @@ body {
     /* text alignment, margin, padding */
     /* Use clamp() for the h1 font size. */
 
-   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+   text-align: center;
+   margin: var(--space-md);
+   padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
 
     h1 {
         /* fluid font size */

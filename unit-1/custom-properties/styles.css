@@ -81,6 +81,7 @@ body {
    ======================================== */
 .site-nav {
     /* padding, margin-bottom */
+   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
 }
 
 /* ========================================
@@ -90,6 +91,8 @@ body {
 .board-header {
     /* text alignment, margin, padding */
     /* Use clamp() for the h1 font size. */
+
+   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
 
     h1 {
         /* fluid font size */

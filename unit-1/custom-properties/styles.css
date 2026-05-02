@@ -177,6 +177,8 @@ body {
     .card-meta {
         /* bottom row: flexbox with space-between */
         /* style the span and link inside here with nesting */
+       color: var(--color-lightblue);
+       padding: var(--space-md);
     }
 }
 

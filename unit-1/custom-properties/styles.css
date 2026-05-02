@@ -12,6 +12,7 @@
       --color-text-white: #ffffff;
       --color-links-gray: #b8b6b6;
       --color-hover-magenta: #b8b6b8;
+      --color-header-lightmaroon: #A24857;
 
     /* Spacing */
       --space-xs: 0.50rem;
@@ -22,8 +23,10 @@
       --space-flex: 2vw;
   
     /* Typography */ 
-      --font-body: 'Verdana', system-ui, sans-serif;
+      --font-body: Verdana, Helvetica, sans-serif;
+      --font-body-header: "Times New Roman", Times, serif;
       --font-size: 1.50rem;
+      --font-size-header: 2.0rem;
       --line-height: 1.75rem;
       --font-weight: 1.0rem;
       --letter-spacing: .25rem; 
@@ -117,6 +120,12 @@ body {
 
     h2 {
         /* section heading styles */
+          background-color: var(--color-bg);
+          color: var(--color-header-lightmaroon);
+          padding: var(--space-md);
+          border-radius: var(--radius);
+          box-shadow: var(--shadow-sm);
+          font-family: var(--font-body-header);
     }
 }
 

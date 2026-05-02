@@ -152,8 +152,8 @@ body {
 .card {
     /* background, padding, border-radius, shadow */
     /* Use a var() with a fallback value here. */
-    background-color: var(--color-lightblue);
-    color: var(--color-text-sectionheaders-yellow);
+    background-color: var(--color-background-sections-lightgreen);
+    color: var(--color-lightblue);
     padding: var(--space-md);
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);
@@ -161,7 +161,7 @@ body {
 }
     .card-tag {
         /* small label: font-size, padding, background, border-radius */
-       color: var(--color-visitedlinks-gray);
+       color: var(--color-text-sections-darkblue);
     }
 
     h3 {

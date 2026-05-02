@@ -126,7 +126,7 @@ body {
     h2 {
         /* section heading styles */
           background-color: var(--color-background-sectionheaders-darkgreen);
-          color: var(--color-hoveringlinks-magenta);
+          color: var(--color-background-sectionheaders-darkgreen);
           padding: var(--space-md);
           border-radius: var(--radius);
           box-shadow: var(--shadow-sm);
@@ -152,7 +152,7 @@ body {
     /* background, padding, border-radius, shadow */
     /* Use a var() with a fallback value here. */
     background-color: var(color-background-sections-lightgreen);
-    color: var(--color-hoveringlinks-magenta);
+    color: var(color-background-sections-lightgreen);
     padding: var(--space-md);
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);

@@ -104,14 +104,14 @@ body {
 
     h1 {
         /* fluid font size */
-       color: var(color-links-gray);
-       background-color: var(color-text-white);
+       color: var(color-backgroundsections-lightgreen);
+       background-color: var(color-background-sectionheaders-darkgreen);
        font-size: clamp(var(1.5rem, 2.0rem, 2.5rem));
     }
 
     p {
         /* muted text color, spacing */
-              color: var(color-background-sections-lightgreen);
+              color: var(color-text-sections-darkblue);
     }
 }
 
@@ -125,8 +125,8 @@ body {
 
     h2 {
         /* section heading styles */
-          background-color: var(--color-header-bg);
-          color: var(--color-header-text-darkblue);
+          background-color: var(--color-hoveringlinks-magenta);
+          color: var(--color-hoveringlinks-magenta);
           padding: var(--space-md);
           border-radius: var(--radius);
           box-shadow: var(--shadow-sm);
@@ -151,8 +151,8 @@ body {
 .card {
     /* background, padding, border-radius, shadow */
     /* Use a var() with a fallback value here. */
-    background-color: var(--color-body-bg);
-    color: var(--color-card-purple);
+    background-color: var(--color-hoveringlinks-magenta);
+    color: var(--color-hoveringlinks-magenta);
     padding: var(--space-md);
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);

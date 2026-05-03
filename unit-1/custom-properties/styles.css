@@ -17,6 +17,7 @@
       --color-lightblue: #4B9CD3;
       --color-lightgray: #D3D3D3;
       --color-white: #81B29A;
+      --cell-around: #FFC300;
 
     /* Spacing */
       --space-xs: 0.50rem;
@@ -154,7 +155,7 @@ body {
 .card {
     /* background, padding, border-radius, shadow */
     /* Use a var() with a fallback value here. */
-    border: 3px solid red;
+    border: 3px solid var(--cell-around);
     background-color: var(--color-lightblue);
     color: var(--color-text-sections-darkblue);
     padding: var(--space-md);

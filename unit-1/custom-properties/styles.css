@@ -6,17 +6,17 @@
    ======================================== */
 :root {
     /* Colors */
-      --color-background-darkblue: #000080;
-      --color-maintext-yellow: #FFFF00;
-      --color-background-sectionheaders-darkgreen: #008000;
+      --color-background-darkblue: #000814;
+      --color-maintext-yellow: #FFC300;
+      --color-background-sectionheaders-darkgreen: #0077B6;
       --color-text-sectionheaders-yellow: #FFFF00;
       --color-background-sections-lightgreen: #90EE90;
-      --color-text-sections-darkblue: #000080; 
-      --color-visitedlinks-gray: #808080;
+      --color-text-sections-darkblue: #003566; 
+      --color-visitedlinks-gray: #D3D3D3;
       --color-hoveringlinks-magenta: #FF00FF;
       --color-lightblue: #4B9CD3;
       --color-lightgray: #D3D3D3;
-      --color-white: #FFFFFF;
+      --color-white: #81B29A;
 
     /* Spacing */
       --space-xs: 0.50rem;

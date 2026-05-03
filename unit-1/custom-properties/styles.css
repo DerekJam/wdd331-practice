@@ -7,16 +7,14 @@
 :root {
     /* Colors */
       --color-main-bgdark: #000814;
-      --color-yellow: #FFC300;
-      --color-darkgreen: #0077B6;
+      --color-gold: #FFC300;
+      --color-carolinablue: #0077B6;
       --color-text-sectionheaders-yellow: #FFFF00;
-      --color-background-sections-lightgreen: #90EE90;
-      --color-text-sections-darkblue: #000814; 
+      --color-text-sections-darkblue: #FFFFFF; 
       --color-visitedlinks-gray: #D3D3D3;
       --color-hoveringlinks-magenta: #FF00FF;
       --color-lightblue: #4B9CD3;
       --color-lightgray: #D3D3D3;
-      --color-white: #81B29A;
 
     /* Spacing */
       --space-xs: 0.50rem;
@@ -63,7 +61,7 @@ body {
     /* font family, color, background, line-height, padding */
     /* Use clamp() for padding to make it fluid. */
     background-color: var(--color-main-bgdark);
-    color: var(--color-yellow);
+    color: var(--color-gold);
     padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);
@@ -126,7 +124,7 @@ body {
 
     h2 {
         /* section heading styles */
-          background-color: var(--color-darkgreen);
+          background-color: var(--color-carolinablue);
           color: var(--color-text-sectionheaders-yellow);
           padding: var(--space-md);
           border-radius: var(--radius);
@@ -144,6 +142,8 @@ body {
     /* display, gap (use calc to derive from a token), columns */
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+
 }
 
 /* ========================================
@@ -169,7 +169,7 @@ body {
 
     h3 {
         /* card title styles */
-        color: var(--color-white);
+        color: var(--color-gold);
     }
 
 

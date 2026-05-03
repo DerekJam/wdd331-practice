@@ -196,8 +196,4 @@ body {
       margin: var(--space-md);
       padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
 
-    h1 {
-        /* fluid font size */
-       font-size: clamp(var(1.5rem, 2.0rem, 2.5rem));
-    }
 }

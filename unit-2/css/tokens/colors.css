@@ -2,5 +2,9 @@
    Name by purpose (--color-primary, --color-surface)
    not appearance (--blue, --light-gray). */
 :root {
-    /* TODO: Define color tokens here */
-}
+   /* Color Tokens */
+      --color-background: #000814;
+      --color-accent: #FFC300;
+      --color-text: #0077B6;
+      --color-primary: #FFFFFF; 
+      }

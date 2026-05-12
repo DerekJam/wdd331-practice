@@ -3,3 +3,24 @@
    Reference tokens with var(). */
 
 /* TODO: Style body, headings, links, and other base elements */
+body {
+   color: var(--color-background)
+
+   h1 {
+      /* header /
+   }
+      
+
+   a {
+      /* links /
+      color: var(--color-accent);
+
+      &:hover {
+      /* hover links color /
+      color: var(--color-primary);
+   }
+}
+
+h1 {
+      /* Another Header /
+}

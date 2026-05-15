@@ -27,7 +27,7 @@
       .temple-status.open {
         /* link color from tokens */
          color: var(--color-hover);
-       	 margin: var(--spacing-medium);
+       	margin: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
         
       }
 
@@ -35,6 +35,4 @@
         /* link color from tokens */
          color: var(--color-accent);
        	margin: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
-
-        
       }

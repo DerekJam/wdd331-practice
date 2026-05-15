@@ -13,11 +13,10 @@ body {
 
 h1 {
    /* h1 means headers */
-   color: var(--color-text);
+   color: var(--color-hover);
 }
 
-
-      
+     
 
 a {
    /* a means links */

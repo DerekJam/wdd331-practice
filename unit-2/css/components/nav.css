@@ -9,9 +9,10 @@
          text-align: center;
          margin: var(--space-md);
          padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
-        }
 
-   a {
+
+
+      a {
         /* link color from tokens */
          color: var(--color-links);
        
@@ -20,3 +21,10 @@
          color: var(--color-hover);
         }
       }
+
+        }
+
+
+.horizontal-list li { /* borrowed from online search */
+  display: inline-block; 
+}

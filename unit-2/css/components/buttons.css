@@ -2,3 +2,30 @@
    Use native nesting for pseudo-classes and modifiers. */
 
 /* TODO: Style the button components */
+
+
+    .btn {
+        /* link color from tokens */
+         color: var(--color-visitedlinks-gray);
+       
+        &:hover {
+            /* hover color from tokens */
+         color: var(--color-hoveringlinks-magenta);
+
+           
+        }
+      }
+
+   .primary {
+        /* link color from tokens */
+         color: var(--color-visitedlinks-gray);
+       
+        &:hover {
+            /* hover color from tokens */
+         color: var(--color-hoveringlinks-magenta);
+
+           
+        }
+      }
+
+      

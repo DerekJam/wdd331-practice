@@ -6,7 +6,7 @@
     .card-group {
         /* link color from tokens bright green */
          color: var(--color-text);
-       
+         margin: var(--space-md);
         }
 
    .cards-grid {
@@ -16,17 +16,20 @@
          background-color: var(--color-primary);
          padding: var(--spacing-medium);
          border-radius: var(--radius);
+         margin: var(--space-md);
         }
 
    .card {
         /* link color from tokens dark gray */
          color: var(--color-vlinks);
+         margin: var(--space-md);
         }
 
    .card-tag {
         /* link color from tokens grayish blue */
          color: var(--color-hover);
          text-align: center;
+         margin: var(--space-md);
         }
 
    .card-footer {

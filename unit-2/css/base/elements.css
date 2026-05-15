@@ -5,26 +5,27 @@
 /* TODO: Style body, headings, links, and other base elements */
 
 body {
-   color: var(--color-background);
+   /* color is for text color, background color is for background color */
+   color: var(--color-text);
+   background-color: var(--color-background);
 }
 
 
 h1 {
-      /* headings /
-   }
+   /* h1 means headers */
+   color: var(--color-text);
+}
+
+
       
 
-links {
-      /* links /
-      color: var(--color-accent);
-
-      &:hover {
-      /* hover links color /
-      color: var(--color-primary);
-      }
-   }
+a {
+   /* a means links */
+   color: var(--color-accent);
+}
 
 
 li {
-      /* lists /
-   }
+   /* li means lists */
+   border-spacing: var(--spacing-small);
+}

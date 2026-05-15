@@ -6,20 +6,20 @@
     .temples {
         /* link color from tokens */
          color: var(--color-accent);
-         padding: var(--space-medium);
+         padding: var(--spacing-medium);
         }
 
 
       .temple-name {
         /* link color from tokens */
          color: var(--color-hover);
-         padding: var(--space-medium);
+         padding: var(--spacing-medium);
       }
 
 
       .temple-status {
         /* link color from tokens */
          color: var(--color-accent);
-       	 padding: var(--space-medium);
+       	 padding: var(--spacing-medium);
         
       }

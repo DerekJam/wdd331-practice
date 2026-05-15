@@ -2,3 +2,24 @@
    Use native nesting. Add :focus-visible styles to all inputs. */
 
 /* TODO: Style the form components */
+
+   .note-form {
+        /* link color from tokens light blue */
+         color: var(--color-links);
+         text-align: center;
+         margin: var(--space-md);
+         padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
+
+
+
+      a {
+        /* link color from tokens */
+         color: var(--color-links);
+       
+        &:hover {
+            /* hover color from tokens */
+         color: var(--color-hover);
+        }
+      }
+
+        }

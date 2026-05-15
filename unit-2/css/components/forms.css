@@ -6,9 +6,9 @@
    .note-form {
         /* link color from tokens light blue */
          color: var(--color-links);
-         text-align: center;
-         margin: var(--space-md);
-         padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
+         text-align: left;
+         margin: var(--spacing-medium);
+         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
 
 
 

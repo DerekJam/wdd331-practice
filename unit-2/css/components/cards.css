@@ -5,30 +5,30 @@
 
     .card-group {
         /* link color from tokens */
-         color: var(--color-accent);
+         color: var(--color-text);
        
         }
 
    .cards-grid {
         /* link color from tokens */
-         color: var(--color-accent);
+         color: var(--color-primary);
        
         }
 
    .card {
         /* link color from tokens */
-         color: var(--color-accent);
+         color: var(--color-vlinks);
        
         }
 
    .card-tag {
         /* link color from tokens */
-         color: var(--color-accent);
+         color: var(--color-hover);
        
         }
 
    .card-footer {
         /* link color from tokens */
-         color: var(--color-accent);
+         color: var(--color-links);
        
         }

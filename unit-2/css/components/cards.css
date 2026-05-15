@@ -24,7 +24,7 @@
    .card-tag {
         /* link color from tokens grayish blue */
          color: var(--color-hover);
-       
+         text-align: center;
         }
 
    .card-footer {

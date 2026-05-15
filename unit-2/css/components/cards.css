@@ -2,3 +2,33 @@
    Use native nesting. Reference tokens with var(). */
 
 /* TODO: Style the card components */
+
+    .card-group {
+        /* link color from tokens */
+         color: var(--color-accent);
+       
+        }
+
+   .cards-grid {
+        /* link color from tokens */
+         color: var(--color-accent);
+       
+        }
+
+   .card {
+        /* link color from tokens */
+         color: var(--color-accent);
+       
+        }
+
+   .card-tag {
+        /* link color from tokens */
+         color: var(--color-accent);
+       
+        }
+
+   .card-footer {
+        /* link color from tokens */
+         color: var(--color-accent);
+       
+        }

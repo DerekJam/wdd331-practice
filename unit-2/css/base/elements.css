@@ -22,6 +22,11 @@ h1 {
 a {
    /* a means links */
    color: var(--color-accent);
+
+   &:hover {
+            /* hover color from tokens */
+         color: var(--color-background);
+   }
 }
 
 

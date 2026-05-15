@@ -9,6 +9,7 @@
          text-align: left;
          margin: var(--spacing-medium);
          padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
+         row-gap: var(--spacing-small);
    }
 
 

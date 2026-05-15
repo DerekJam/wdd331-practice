@@ -4,7 +4,7 @@
 /* TODO: Style the temple list */
     .temples {
         /* link color from tokens */
-         color: var(--color-links);
+         color: var(--color-accent);
        
         &:hover {
             /* hover color from tokens */

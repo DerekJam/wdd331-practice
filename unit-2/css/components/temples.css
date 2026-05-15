@@ -2,23 +2,24 @@
    Style the status badges differently based on class (.open, .construction). */
 
 /* TODO: Style the temple list */
+
     .temples {
         /* link color from tokens */
          color: var(--color-accent);
-       
+         padding: var(--space-medium);
         }
 
 
       .temple-name {
         /* link color from tokens */
          color: var(--color-hover);
-       
+         padding: var(--space-medium);
       }
 
 
       .temple-status {
         /* link color from tokens */
          color: var(--color-accent);
-       
+       	 padding: var(--space-medium);
         
       }

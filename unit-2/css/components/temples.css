@@ -27,14 +27,14 @@
       .temple-status.open {
         /* link color from tokens */
          color: var(--color-hover);
-       	 padding: var(--spacing-medium);
+       	 margin: var(--spacing-medium);
         
       }
 
       .temple-status.construction {
         /* link color from tokens */
          color: var(--color-accent);
-       	padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
+       	margin: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
 
         
       }

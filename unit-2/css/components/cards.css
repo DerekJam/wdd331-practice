@@ -16,26 +16,26 @@
          background-color: var(--color-primary);
          padding: var(--spacing-medium);
          border-radius: var(--radius);
-         margin: var(--space-md);
+         margin: var(--spacing-medium);
         }
 
    .card {
         /* link color from tokens dark gray */
          color: var(--color-vlinks);
-         margin: var(--space-md);
+         margin: var(--spacing-medium);
         }
 
    .card-tag {
         /* link color from tokens grayish blue */
          color: var(--color-hover);
          text-align: center;
-         margin: var(--space-md);
+         margin: var(--spacing-medium);
         }
 
    .card-footer {
         /* link color from tokens light blue */
          color: var(--color-links);
          text-align: center;
-         margin: var(--space-md);
-         padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
+         margin: var(--spacing-medium);
+         padding: clamp(var(--space-small), var(--spacing-flex), var(--spacing-large));
         }

@@ -6,7 +6,7 @@
 
     .btn {
         /* link color from tokens */
-         color: var(--color-visitedlinks-gray);
+         color: var(--color-hoveringlinks-magenta);
        
         &:hover {
             /* hover color from tokens */

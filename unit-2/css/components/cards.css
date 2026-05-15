@@ -4,31 +4,33 @@
 /* TODO: Style the card components */
 
     .card-group {
-        /* link color from tokens */
+        /* link color from tokens bright green */
          color: var(--color-text);
        
         }
 
    .cards-grid {
-        /* link color from tokens */
+        /* link color from tokens white */
          color: var(--color-primary);
        
         }
 
    .card {
-        /* link color from tokens */
+        /* link color from tokens dark gray */
          color: var(--color-vlinks);
        
         }
 
    .card-tag {
-        /* link color from tokens */
+        /* link color from tokens grayish blue */
          color: var(--color-hover);
        
         }
 
    .card-footer {
-        /* link color from tokens */
+        /* link color from tokens light blue */
          color: var(--color-links);
-       
+         text-align: center;
+         margin: var(--space-md);
+         padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
         }

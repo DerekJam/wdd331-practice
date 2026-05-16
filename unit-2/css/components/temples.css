@@ -5,7 +5,7 @@
 
     .temples {
         /* link color from tokens */
-         color: var(--color-accent);
+         color: var(--color-templetext);
          margin: var(--spacing-medium);
         }
 

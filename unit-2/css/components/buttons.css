@@ -9,7 +9,7 @@
          color: var(--color-accent);
          background-color: var(--color-vlinks);
          margin: var(--spacing-small);
-         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
+         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-medium));
    
         }
 

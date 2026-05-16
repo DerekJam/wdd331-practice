@@ -7,21 +7,30 @@
         /* link color from tokens */
          color: var(--color-primary);
          margin: var(--spacing-medium);
+         text-align: left;
+         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
+         line-height: 1.5;
         }
 
 
       .temple-name {
         /* link color from tokens */
          color: var(--color-hover);
-         margin: var(--spacing-medium);
+         margin: var(--spacing-medium);        
+         text-align: left;
+         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
+         line-height: 1.5;
+
       }
 
 
       .temple-status {
         /* link color from tokens */
          color: var(--color-accent);
-       	 margin: var(--spacing-medium);
-        
+       	margin: var(--spacing-medium);
+         text-align: left;
+         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
+         line-height: 1.5;
       }
 
       .temple-status.open {

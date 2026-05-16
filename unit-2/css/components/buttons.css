@@ -11,6 +11,11 @@
          margin: var(--spacing-small);
          padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-medium));
    
+         &:hover {
+            /* hover color from tokens */
+         color: var(--color-primary);
+         }
+         
         }
 
 
@@ -21,8 +26,7 @@
         &:hover {
             /* hover color from tokens */
          color: var(--color-primary);
-
-           
         }
+
       }
 

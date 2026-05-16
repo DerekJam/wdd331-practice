@@ -29,7 +29,7 @@
         /* Title, ex. Book of Mormon, Doctrine and Covenants, etc. */
          color: var(--color-accent);
          text-align: left;
-         margin: var(--spacing-medium);
+         margin: var(--spacing-small);
          padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-medium));
          line-height: 1.2;
         }

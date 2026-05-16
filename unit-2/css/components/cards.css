@@ -22,6 +22,7 @@
          padding: var(--spacing-medium);
          border-radius: var(--radius);
          margin: var(--spacing-small);
+         line-height: 1.2;
         }
 
    .card {
@@ -48,4 +49,5 @@
          text-align: left;
          margin: var(--spacing-medium);
          padding: clamp(var(--space-small), var(--spacing-flex), var(--spacing-large));
+         line-height: 1.2;
         }

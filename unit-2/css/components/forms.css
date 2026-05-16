@@ -7,9 +7,9 @@
         /* link color from tokens light blue */
          color: var(--color-links);
          text-align: left;
-         margin: var(--spacing-medium);
+         margin: var(--spacing-small);
          padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
-         line-height: 1.5;
+         line-height: 1.2;
    }
 
 

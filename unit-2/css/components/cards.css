@@ -44,7 +44,7 @@
 
    .card-footer {
         /* scripture verses and link section */
-         color: var(--color-links);
+         color: var(--color-hover);
          text-align: left;
          margin: var(--spacing-medium);
          padding: clamp(var(--space-small), var(--spacing-flex), var(--spacing-large));

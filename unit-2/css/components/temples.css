@@ -37,3 +37,13 @@
          color: var(--color-vlinks);
 
       }
+
+
+      
+.horizontal-list {
+  display: inline-block; 
+}
+
+.horizontal-list li { /* borrowed from online search */
+  display: inline-block; 
+}

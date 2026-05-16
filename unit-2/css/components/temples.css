@@ -20,7 +20,6 @@
          text-align: left;
          padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
          line-height: 1.5;
-
       }
 
 
@@ -36,12 +35,11 @@
       .temple-status.open {
         /* link color from tokens */
          color: var(--color-links);
-       	margin: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
         
       }
 
       .temple-status.construction {
         /* link color from tokens */
          color: var(--color-vlinks);
-       	margin: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
+
       }

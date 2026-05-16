@@ -6,11 +6,11 @@
 
     .btn {
         /* link color from tokens */
-         color: var(--color-hoveringlinks-magenta);
+         color: var(--color-accent);
        
         &:hover {
             /* hover color from tokens */
-         color: var(--color-hoveringlinks-magenta);
+         color: var(--color-text);
 
            
         }
@@ -18,11 +18,11 @@
 
    .primary {
         /* link color from tokens */
-         color: var(--color-visitedlinks-gray);
+         color: var(--color-links);
        
         &:hover {
             /* hover color from tokens */
-         color: var(--color-hoveringlinks-magenta);
+         color: var(--color-primary);
 
            
         }

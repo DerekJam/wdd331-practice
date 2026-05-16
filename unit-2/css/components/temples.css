@@ -16,30 +16,24 @@
       .temple-name {
         /* names of the temples */
          color: var(--color-primary);
-         margin: var(--spacing-medium);        
-         text-align: left;
-         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
          line-height: 1.5;
       }
 
 
       .temple-status {
-        /* link color from tokens */
+        /* main section of status */
          color: var(--color-accent);
-       	margin: var(--spacing-medium);
-         text-align: left;
-         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
-         line-height: 1.5;
+       	line-height: 1.5;
       }
 
       .temple-status.open {
-        /* link color from tokens */
+        /* open */
          color: var(--color-links);
         
       }
 
       .temple-status.construction {
-        /* link color from tokens */
+        /* construction */
          color: var(--color-vlinks);
 
       }

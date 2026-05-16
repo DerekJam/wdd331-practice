@@ -10,14 +10,9 @@
          background-color: var(--color-vlinks);
          margin: var(--spacing-small);
          padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
-       
-        &:hover {
-            /* hover color from tokens */
-         color: var(--color-text);
-
-           
+   
         }
-      }
+
 
    .primary {
         /* link color from tokens */

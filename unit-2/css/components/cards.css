@@ -2,6 +2,11 @@
    Use native nesting. Reference tokens with var(). */
 
 /* TODO: Style the card components */
+:is(.card-group, .cards-grid, .card, .card-tag)
+     p {margin: var(--spacing-small);
+     }     
+
+
 
     .card-group {
         /* link color from tokens bright green */
@@ -22,6 +27,7 @@
    .card {
         /* link color from tokens dark gray */
          color: var(--color-vlinks);
+         text-align: left;
          margin: var(--spacing-small);
          padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-medium));
          line-height: 1.2;

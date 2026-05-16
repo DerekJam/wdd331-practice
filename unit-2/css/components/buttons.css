@@ -7,8 +7,8 @@
     .btn {
         /* for buttons: color is text color; background color is background color */
          color: var(--color-accent);
-         background-color: var(--color-hover);
-         margin: var(--spacing-medium);
+         background-color: var(--color-vlinks);
+         margin: var(--spacing-small);
          padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
        
         &:hover {

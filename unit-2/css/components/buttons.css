@@ -5,8 +5,9 @@
 
 
     .btn {
-        /* link color from tokens */
+        /* for buttons: color is text color; background color is background color */
          color: var(--color-accent);
+         background-color: var(--color-hover);
          margin: var(--spacing-medium);
          padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
        

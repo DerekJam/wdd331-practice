@@ -26,10 +26,12 @@
         }
 
    .card-tag {
-        /* link color from tokens grayish blue */
-         color: var(--color-hover);
-         text-align: center;
+        /* Title, ex. Book of Mormon, Doctrine and Covenants, etc. */
+         color: var(--color-accent);
+         text-align: left;
          margin: var(--spacing-medium);
+         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
+         line-height: 1.2;
         }
 
    .card-footer {

@@ -6,7 +6,7 @@
     .card-group {
         /* link color from tokens bright green */
          color: var(--color-text);
-         margin: var(--space-md);
+         margin: var(--spacing-small);
         }
 
    .cards-grid {
@@ -16,13 +16,13 @@
          background-color: var(--color-primary);
          padding: var(--spacing-medium);
          border-radius: var(--radius);
-         margin: var(--spacing-medium);
+         margin: var(--spacing-small);
         }
 
    .card {
         /* link color from tokens dark gray */
          color: var(--color-vlinks);
-         margin: var(--spacing-medium);
+         margin: var(--spacing-small);
         }
 
    .card-tag {
@@ -30,14 +30,14 @@
          color: var(--color-accent);
          text-align: left;
          margin: var(--spacing-medium);
-         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
+         padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-medium));
          line-height: 1.2;
         }
 
    .card-footer {
-        /* link color from tokens light blue */
+        /* scripture verses and link section */
          color: var(--color-links);
-         text-align: center;
+         text-align: left;
          margin: var(--spacing-medium);
          padding: clamp(var(--space-small), var(--spacing-flex), var(--spacing-large));
         }

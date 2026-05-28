@@ -37,5 +37,5 @@ a {
 
 li {
    /* li means lists */
-   border-spacing: var(--spacing-medium);
+   padding-left: var(--spacing-medium);
 }

@@ -49,4 +49,11 @@ main > section {
     font-size: clamp(1.5rem, 2.0rem, 2.5rem);
 }
 
-
+.header-intro {
+          background-color: var(--color-cards);
+          color: var(--color-cards-text);
+          padding: var(--spacing-medium);
+          border-radius: var(--radius);
+          box-shadow: var(--shadow-sm);
+          font-family: var(--font-family);
+}

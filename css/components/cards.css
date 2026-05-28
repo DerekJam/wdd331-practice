@@ -72,11 +72,6 @@
          color: var(--color-hover);
          }
 
-        a:visited {
-            /* visited color from tokens */
-         color: var(--color-vlinks);
-         }
-
     }
 
    

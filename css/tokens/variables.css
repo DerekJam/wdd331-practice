@@ -15,4 +15,8 @@
     /* Border Radius Token */  
       --radius: 0.50rem;
 
+    /* Shadow */
+    --shadow-sm: 1.00rem;
+
+
 }

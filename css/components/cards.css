@@ -1,22 +1,40 @@
-
-
+/* ========================================
+   CARD GROUP
+   Each section of cards (This Week,
+   Coming Up, Announcements).
+   ======================================== */
 .cards-combined-trial {
-          background-color: var(--color-accent);
-          color: var(--color-cards-text);
+    /* margin-bottom using a token */
+
+    h2 {
+        /* section heading styles */
+          background-color: var(--color-primary);
+          color: var(--color-hover);
           padding: var(--spacing-medium);
           border-radius: var(--radius);
           box-shadow: var(--shadow-sm);
-          font-family: var(--font-family);
+          font-family: var(--font-body-header);
+    }
 }
 
-
+/* ========================================
+   CARDS GRID
+   Layout the .cards container as a
+   responsive grid or flex layout.
+   ======================================== */
 .cards-trial {
-   text-align: center;
-   margin: var(--spacing-medium);
-   padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
+    /* display, gap (use calc to derive from a token), columns */
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   padding: clamp(var(--spacing-small), var(--spacing-medium), var(--spacing-large));
+
 }
 
-
+/* ========================================
+   INDIVIDUAL CARD
+   Style each .card article. This is where
+   most of your nesting will happen.
+   ======================================== */
 .card-trial {
     /* background, padding, border-radius, shadow */
     /* Use a var() with a fallback value here. */
@@ -26,19 +44,27 @@
     padding: var(--spacing-medium);
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);
-    font-family: var(--font-family);
+    font-family: var(--font-body);
 }
-    
-
-.card-tag-trial {
+    .card-tag-trial {
         /* small label: font-size, padding, background, border-radius */
-       color: var(--color-hover);
-}
+       color: var(--color-cards-text);
+    }
+
+    h3 {
+        /* card title styles */
+        color: var(--color-primary);
+    }
 
 
-.card-meta-trial {
+    p {
+        /* card body text */
+               color: var(--color-primary);
+    }
+
+    .card-meta-trial {
         /* bottom row: flexbox with space-between */
         /* style the span and link inside here with nesting */
        color: var(--color-vlinks);
        padding: var(--spacing-medium);
-}
+    }

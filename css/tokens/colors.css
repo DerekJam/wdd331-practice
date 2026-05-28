@@ -3,12 +3,12 @@
    not appearance (--blue, --light-gray). */
 :root {
    /* Color Tokens */
-      --color-background: #0077B6;
+      --color-background: #002cf0;
       --color-accent: #00ff15;
       --color-text: #FFC300;
       --color-primary: #FFFFFF; 
-      --color-vlinks: #808080;
+      --color-vlinks: #bdb9bd;
       --color-links: #bfe3ff;
-      --color-hover: #0077B6;
+      --color-hover: #b600b6;
 
       }

@@ -1,0 +1,70 @@
+/* ========================================
+   CARD GROUP
+   Each section of cards (This Week,
+   Coming Up, Announcements).
+   ======================================== */
+.card-group {
+    /* margin-bottom using a token */
+
+    h2 {
+        /* section heading styles */
+          background-color: var(--color-carolinablue);
+          color: var(--color-text-sectionheaders-yellow);
+          padding: var(--space-md);
+          border-radius: var(--radius);
+          box-shadow: var(--shadow-sm);
+          font-family: var(--font-body-header);
+    }
+}
+
+/* ========================================
+   CARDS GRID
+   Layout the .cards container as a
+   responsive grid or flex layout.
+   ======================================== */
+.cards {
+    /* display, gap (use calc to derive from a token), columns */
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+
+}
+
+/* ========================================
+   INDIVIDUAL CARD
+   Style each .card article. This is where
+   most of your nesting will happen.
+   ======================================== */
+.card {
+    /* background, padding, border-radius, shadow */
+    /* Use a var() with a fallback value here. */
+    border: 3px solid var(--cell-around);
+    background-color: var(--color-lightblue);
+    color: var(--color-text-sections-darkblue);
+    padding: var(--space-md);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    font-family: var(--font-body);
+}
+    .card-tag {
+        /* small label: font-size, padding, background, border-radius */
+       color: var(--color-text-sections-darkblue);
+    }
+
+    h3 {
+        /* card title styles */
+        color: var(--color-gold);
+    }
+
+
+    p {
+        /* card body text */
+               color: var(--color-text-sections-darkblue);
+    }
+
+    .card-meta {
+        /* bottom row: flexbox with space-between */
+        /* style the span and link inside here with nesting */
+       color: var(--color-lightgray);
+       padding: var(--space-md);
+    }

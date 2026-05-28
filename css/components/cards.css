@@ -7,7 +7,7 @@
     h2 {
         /* section heading styles */
           background-color: var(--color-cards);
-          color: var(--color-text);
+          color: var(--color-cards-text);
           padding: var(--spacing-medium);
           border-radius: var(--radius);
           box-shadow: var(--shadow-sm);

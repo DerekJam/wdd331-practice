@@ -46,8 +46,7 @@ main > section {
 }
 
 .main-header p {
-        /* muted text color, spacing */
-              color: var(--color-accent);
+    font-size: clamp(1.5rem, 2.0rem, 2.5rem);
 }
 
 

@@ -3,9 +3,9 @@
    not appearance (--blue, --light-gray). */
 :root {
    /* Color Tokens */
-      --color-background: #000814;
-      --color-accent: #FFC300;
-      --color-text: #00ff00;
+      --color-background: #0077B6;
+      --color-accent: #00ff15;
+      --color-text: #FFC300;
       --color-primary: #FFFFFF; 
       --color-vlinks: #808080;
       --color-links: #bfe3ff;

@@ -11,12 +11,7 @@ body {
 }
 
 
-h1 {
-   /* h1 means headers */
-   color: var(--color-cards-text);
-}
-
-     
+    
 
 a {
    /* a means links */

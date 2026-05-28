@@ -1,15 +1,13 @@
-/* ========================================
+/* 
    CARD GROUP
-   Each section of cards (This Week,
-   Coming Up, Announcements).
-   ======================================== */
+*/
 .cards-combined-trial {
     /* margin-bottom using a token */
 
     h2 {
         /* section heading styles */
-          background-color: var(--color-primary);
-          color: var(--color-hover);
+          background-color: var(--color-accent);
+          color: var(--color-cards-text);
           padding: var(--spacing-medium);
           border-radius: var(--radius);
           box-shadow: var(--shadow-sm);
@@ -17,11 +15,9 @@
     }
 }
 
-/* ========================================
+/* 
    CARDS GRID
-   Layout the .cards container as a
-   responsive grid or flex layout.
-   ======================================== */
+ */
 .cards-trial {
     /* display, gap (use calc to derive from a token), columns */
    display: grid;
@@ -30,11 +26,9 @@
 
 }
 
-/* ========================================
+/* 
    INDIVIDUAL CARD
-   Style each .card article. This is where
-   most of your nesting will happen.
-   ======================================== */
+*/
 .card-trial {
     /* background, padding, border-radius, shadow */
     /* Use a var() with a fallback value here. */

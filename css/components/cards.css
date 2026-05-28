@@ -1,40 +1,34 @@
-/* ========================================
-   CARD GROUP
-   Each section of cards (This Week,
-   Coming Up, Announcements).
-   ======================================== */
-.card-group {
+/* 
+   CARD GROUP (cards combined)
+*/
+.cards-combined {
     /* margin-bottom using a token */
 
     h2 {
         /* section heading styles */
-          background-color: var(--color-carolinablue);
-          color: var(--color-text-sectionheaders-yellow);
-          padding: var(--space-md);
+          background-color: var(--color-cards);
+          color: var(--color-text);
+          padding: var(--spacing-medium);
           border-radius: var(--radius);
           box-shadow: var(--shadow-sm);
-          font-family: var(--font-body-header);
+          font-family: var(--font-family);
     }
 }
 
-/* ========================================
-   CARDS GRID
-   Layout the .cards container as a
-   responsive grid or flex layout.
-   ======================================== */
+/* 
+   CARDS GRID (what's in the grid)
+ */
 .cards {
     /* display, gap (use calc to derive from a token), columns */
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+   padding: clamp(var(--spacing-small), var(--spacing-medium), var(--spacing-large));
 
 }
 
-/* ========================================
-   INDIVIDUAL CARD
-   Style each .card article. This is where
-   most of your nesting will happen.
-   ======================================== */
+/*
+   INDIVIDUAL CARDs (self-explanatory)
+*/
 .card {
     /* background, padding, border-radius, shadow */
     /* Use a var() with a fallback value here. */
@@ -66,5 +60,5 @@
         /* bottom row: flexbox with space-between */
         /* style the span and link inside here with nesting */
        color: var(--color-lightgray);
-       padding: var(--space-md);
+       padding: var(--spacing-medium);
     }

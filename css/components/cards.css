@@ -1,51 +1,7 @@
-.cards {
-   text-align: center;
-   margin: var(--space-md);
-   padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
-}
-
-
-
-.cards-combined {
-          background-color: var(--color-cards);
-          color: var(--color-cards-text);
-          padding: var(--spacing-medium);
-          border-radius: var(--radius);
-          box-shadow: var(--shadow-sm);
-          font-family: var(--font-family);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .cards-combined-trial {
-          background-color: var(--color-cards);
+          background-color: var(--color-accent);
           color: var(--color-cards-text);
           padding: var(--spacing-medium);
           border-radius: var(--radius);

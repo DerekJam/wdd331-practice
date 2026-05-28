@@ -59,6 +59,22 @@
     .card-meta-trial {
         /* bottom row: flexbox with space-between */
         /* style the span and link inside here with nesting */
-       color: var(--color-vlinks);
        padding: var(--spacing-medium);
+
+       a {
+          /* a means links */
+        color: var(--color-links);
+
+        &:hover {
+            /* hover color from tokens */
+         color: var(--color-hover);
+         }
+
+        &:visited {
+            /* visited color from tokens */
+         color: var(--color-vlinks);
+         }
+
+        }
+        
     }

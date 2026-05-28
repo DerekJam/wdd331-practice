@@ -38,14 +38,16 @@ main > section {
     text-align: center;
    margin: var(--space-md);
    padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
-
-    h1 {
-        /* fluid font size */
-       font-size: clamp(var(1.5rem, 2.0rem, 2.5rem));
-    }
-
-    p {
-        /* muted text color, spacing */
-              color: var(--color-text-sections-darkblue);
-    }
 }
+
+.main-header h1 {
+    font-size: clamp(1.5rem, 2.0rem, 2.5rem);
+    
+}
+
+.main-header p {
+        /* muted text color, spacing */
+              color: var(--color-accent);
+}
+
+

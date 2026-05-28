@@ -47,13 +47,13 @@
 
     h3 {
         /* card title styles */
-        color: var(--color-primary);
+        color: var(--color-cards-text);
     }
 
 
     p {
         /* card body text */
-               color: var(--color-primary);
+               color: var(--color-cards-text);
     }
 
     .card-meta-trial {

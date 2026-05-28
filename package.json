@@ -1,0 +1,24 @@
+{
+  "name": "wdd331-practice",
+  "version": "1.0.0",
+  "description": "**Student:** Derek Steele **Semester:** Spring 2026 **Live Site:** [View Site](https://derekjam.github.io/wdd331-practice/)",
+  "main": "index.js",
+  "scripts": {
+  "build:css": "lightningcss css/main.css -o dist/styles.css --minify"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerekJam/wdd331-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DerekJam/wdd331-practice/issues"
+  },
+  "homepage": "https://github.com/DerekJam/wdd331-practice#readme",
+  "devDependencies": {
+    "lightningcss-cli": "^1.32.0"
+  }
+}

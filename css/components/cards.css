@@ -4,7 +4,7 @@
 .cards-combined-trial {
     /* margin-bottom using a token */
 
-    h2 {
+    h4 {
         /* section heading styles */
           background-color: var(--color-accent);
           color: var(--color-cards-text);

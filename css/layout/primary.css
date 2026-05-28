@@ -45,7 +45,7 @@ main > section {
 }
 
 .main-header h2 {
-    font-size: clamp(2.0rem, 2.50rem, 3.0rem);
+    font-size: clamp(1.75rem, 2.25rem, 2.75rem);
 }
 
 .main-header p {

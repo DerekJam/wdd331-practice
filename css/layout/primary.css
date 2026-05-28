@@ -35,17 +35,17 @@ main > section {
 
 
 .main-header {
-    text-align: center;
+   text-align: center;
    margin: var(--space-md);
    padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
 }
 
 .main-header h1 {
-    font-size: clamp(1.5rem, 2.0rem, 2.5rem);
+    font-size: clamp(2.5rem, 3.0rem, 3.5rem);
 }
 
 .main-header h2 {
-    font-size: clamp(1.0rem, 1.50rem, 2.0rem);
+    font-size: clamp(2.0rem, 2.50rem, 3.0rem);
 }
 
 .main-header p {

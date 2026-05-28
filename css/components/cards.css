@@ -39,7 +39,7 @@
     /* background, padding, border-radius, shadow */
     /* Use a var() with a fallback value here. */
     border: 3px solid var(--cell-around);
-    background-color: var(--color-accent);
+    background-color: var(--color-cards);
     color: var(--color-primary);
     padding: var(--spacing-medium);
     border-radius: var(--radius);

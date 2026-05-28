@@ -64,17 +64,19 @@
        a {
           /* a means links */
         color: var(--color-links);
+       }
 
-        &:hover {
+
+        a:hover {
             /* hover color from tokens */
          color: var(--color-hover);
          }
 
-        &:visited {
+        a:visited {
             /* visited color from tokens */
          color: var(--color-vlinks);
          }
 
-        }
-        
     }
+
+   

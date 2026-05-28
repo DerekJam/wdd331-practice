@@ -56,8 +56,8 @@
 
 .cards-trial {
    text-align: center;
-   margin: var(--space-md);
-   padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
+   margin: var(--spacing-medium);
+   padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-large));
 }
 
 
@@ -65,24 +65,24 @@
     /* background, padding, border-radius, shadow */
     /* Use a var() with a fallback value here. */
     border: 3px solid var(--cell-around);
-    background-color: var(--color-lightblue);
-    color: var(--color-text-sections-darkblue);
-    padding: var(--space-md);
+    background-color: var(--color-accent);
+    color: var(--color-primary);
+    padding: var(--spacing-medium);
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);
-    font-family: var(--font-body);
+    font-family: var(--font-family);
 }
     
 
 .card-tag-trial {
         /* small label: font-size, padding, background, border-radius */
-       color: var(--color-text-sections-darkblue);
+       color: var(--color-hover);
 }
 
 
 .card-meta-trial {
         /* bottom row: flexbox with space-between */
         /* style the span and link inside here with nesting */
-       color: var(--color-lightgray);
-       padding: var(--space-md);
+       color: var(--color-vlinks);
+       padding: var(--spacing-medium);
 }

@@ -14,3 +14,75 @@
           box-shadow: var(--shadow-sm);
           font-family: var(--font-family);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cards-combined-trial {
+          background-color: var(--color-cards);
+          color: var(--color-cards-text);
+          padding: var(--spacing-medium);
+          border-radius: var(--radius);
+          box-shadow: var(--shadow-sm);
+          font-family: var(--font-family);
+}
+
+
+.cards-trial {
+   text-align: center;
+   margin: var(--space-md);
+   padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
+}
+
+
+.card-trial {
+    /* background, padding, border-radius, shadow */
+    /* Use a var() with a fallback value here. */
+    border: 3px solid var(--cell-around);
+    background-color: var(--color-lightblue);
+    color: var(--color-text-sections-darkblue);
+    padding: var(--space-md);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    font-family: var(--font-body);
+}
+    
+
+.card-tag-trial {
+        /* small label: font-size, padding, background, border-radius */
+       color: var(--color-text-sections-darkblue);
+}
+
+
+.card-meta-trial {
+        /* bottom row: flexbox with space-between */
+        /* style the span and link inside here with nesting */
+       color: var(--color-lightgray);
+       padding: var(--space-md);
+}

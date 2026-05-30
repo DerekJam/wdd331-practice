@@ -58,11 +58,6 @@ top: 0;
 }
 
 
-.middleimage {
-position:relative;
-left: 400px;
-top: 0;
-  }
 
 
 .middleimage:hover .card-image {

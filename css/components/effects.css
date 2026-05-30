@@ -17,9 +17,8 @@
   width: auto;
   height: auto;
   clip-path: circle(100%);
-  filter: blur(1px);
+  filter: blur(3px);
 }
-
 
 .cards {
    display: grid;

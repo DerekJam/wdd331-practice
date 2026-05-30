@@ -152,6 +152,16 @@
 }
 
 
+/* Glass background is okay */
 .glass-background {
   backdrop-filter: blur(10px);
+}
+
+
+/* Glass panel needs to be adjusted */
+.glass-panel {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
 }

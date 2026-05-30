@@ -146,6 +146,6 @@
 
 /* CSS for text shadow*/
 .intro-with-fuchsia-shadow {
-  text-shadow: 20px 20px 50px fuchsia;
+  text-shadow: 3px 3px 70px fuchsia;
   font-size: large;
 }

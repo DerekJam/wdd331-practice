@@ -41,7 +41,7 @@
 .cards {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+   padding: clamp(var(--spacing-small), var(--spacing-medium), var(--spacing-large));
 }
 
 
@@ -121,6 +121,9 @@
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
    padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
 }
+
+
+
 
 
 

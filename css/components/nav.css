@@ -32,8 +32,15 @@
   padding: 0;
   overflow: hidden;
   background-color: blue;
-  color: white;
+  color: var(--color-text);
   text-align: center;
 }
 
 
+
+
+
+h1 {
+   /* h1 means headers */
+   color: var(--color-text);
+}

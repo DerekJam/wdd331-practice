@@ -65,17 +65,22 @@
     }
 }
 
+/* Glass background is okay */
 .glass-background {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+  backdrop-filter: blur(10px);
 }
 
+/* Glass panel needs to be adjusted */
 .glass-panel {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
+
+
+
+
 
 
 
@@ -152,16 +157,3 @@
 }
 
 
-/* Glass background is okay */
-.glass-background {
-  backdrop-filter: blur(10px);
-}
-
-
-/* Glass panel needs to be adjusted */
-.glass-panel {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  display: block;
-}

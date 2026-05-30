@@ -19,4 +19,35 @@
       --shadow-sm: 1.00rem;
 
 
+    /* Level 1: Shadow Small */
+        --shadow-small:
+        0 1px 2px oklch(0.2 0 0 / 0.1),
+        0 2px 4px oklch(0.2 0 0 / 0.06);
+
+    /* Level 2: Shadow Medium */
+        --shadow-medium:
+        0 2px 4px oklch(0.2 0 0 / 0.1),
+        0 6px 12px oklch(0.2 0 0 / 0.07),
+        0 16px 32px oklch(0.2 0 0 / 0.05);
+
+    /* Level 3: Shadow Large */
+        --shadow-large:
+        0 4px 8px oklch(0.2 0 0 / 0.1),
+        0 12px 24px oklch(0.2 0 0 / 0.08),
+        0 24px 48px oklch(0.2 0 0 / 0.06);
 }
+
+.button     { box-shadow: var(--shadow-small); }
+.card       { box-shadow: var(--shadow-medium); }
+.modal      { box-shadow: var(--shadow-large); }
+
+
+
+
+
+
+
+
+Add two elevation levels as custom properties
+these should be layered shadow stacks (two to three layers each) using the pattern from the reading
+name them by purpose, such as shadow-sm and shadow-md or shadow-card and shadow-raised 

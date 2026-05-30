@@ -1,18 +1,18 @@
 
 @layer tokens, base, layout, components, utilities;
 
-@import url('/css/tokens/colors.css') layer(tokens);
-@import url('/css/variables.css') layer(tokens);
+@import url('https://derekjam.github.io/wdd331-practice/css/tokens/colors.css') layer(tokens);
+@import url('https://derekjam.github.io/wdd331-practice/css/tokens/variables.css') layer(tokens);
 
-@import url('/css/base/reset.css') layer(base);
-@import url('/css/base/elements.css') layer(base);
+@import url('https://derekjam.github.io/wdd331-practice/css/base/reset.css') layer(base);
+@import url('https://derekjam.github.io/wdd331-practice/css/base/elements.css') layer(base);
 
-@import url('/css/layout/primary.css') layer(layout);
+@import url('https://derekjam.github.io/wdd331-practice/css/layout/primary.css') layer(layout);
 
-@import url('/css/components/cards.css') layer(components);
-@import url('/css/components/nav.css') layer(components);
-@import url('/css/components/effects.css') layer(components);
+@import url('https://derekjam.github.io/wdd331-practice/css/components/cards.css') layer(components);
+@import url('https://derekjam.github.io/wdd331-practice/css/components/nav.css') layer(components);
+@import url('https://derekjam.github.io/wdd331-practice/css/components/effects.css') layer(components);
 
-@import url('/css/utilities/utilities.css') layer(utilities);
+@import url('https://derekjam.github.io/wdd331-practice/css/utilities/utilities.css') layer(utilities);
 
 

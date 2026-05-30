@@ -67,8 +67,9 @@
 
 
 
-/* Glass panel needs to be adjusted */
+/* Glass panel had to get AI to explain and do what I was missing */
 .glass-panel {
+  position: absolute;
   top: 20px;
   left: 20px;
 }
@@ -80,6 +81,10 @@
 }
 
 
+/* Glass panel had to get AI to explain what I was missing */
+.glass-background {
+  position: relative;
+}
 
 
 

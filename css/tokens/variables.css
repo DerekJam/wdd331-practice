@@ -48,6 +48,8 @@
 
 .leftimage {
 position:absolute;
+left: 0;
+top: 0;
   }
 
 
@@ -58,6 +60,8 @@ position:absolute;
 
 .middleimage {
 position:absolute;
+left: 400px;
+top: 0;
   }
 
 

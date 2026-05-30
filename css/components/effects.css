@@ -151,7 +151,7 @@
 /* CSS for text shadow*/
 .intro-with-yellow-shadow {
   text-shadow: 4px 4px 8px yellow;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: white;
 }
 

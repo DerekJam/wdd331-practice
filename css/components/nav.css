@@ -2,12 +2,25 @@
 
 
 
-
-.u3site-nav {
-          
+/* Used W3Schools to help provide demo and code so I could adjust and use for the menu bar */
+.u3site-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
 }
 
+.u3site-nav li {
+  float: left;
+}
 
+.u3site-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 
 

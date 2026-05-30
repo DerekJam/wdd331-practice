@@ -7,9 +7,13 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: black;
+  overflow: hidden;
+  background-color: blue;
 }
 
+.u3site-nav li {
+  float: left;
+}
 
 .u3site-nav li a {
   display: block;

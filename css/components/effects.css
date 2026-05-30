@@ -70,7 +70,7 @@
 /* Glass panel had to get AI to explain and do what I was missing */
 .glass-panel {
   position: absolute;
-  top: 20px;
+  bottom: 20px;
   left: 20px;
 }
 

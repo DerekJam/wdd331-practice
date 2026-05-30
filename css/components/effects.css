@@ -65,14 +65,14 @@
     }
 }
 
-/* Glass background is okay */
-.glass-background {
-  backdrop-filter: blur(10px);
-}
+
 
 /* Glass panel needs to be adjusted */
 .glass-panel {
-
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  display: block;
 }
 
 

@@ -16,9 +16,3 @@
 @import url('/css/utilities/utilities.css') layer(utilities);
 
 
-
-
-
-body {
-  outline: 5px solid red;
-}

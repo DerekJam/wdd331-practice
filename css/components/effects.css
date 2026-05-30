@@ -4,7 +4,8 @@
 }
 
 .element {
-  width: 300px;
+  width: auto;
+  height: auto;
   clip-path: polygon(0 100%, 0 0, 100% 0, 80% 100%);
 }
 
@@ -13,7 +14,8 @@
 }
 
 .blur {
-  width: 300px;
+  width: auto;
+  height: auto;
   clip-path: circle(50%);
   filter: blur(8px);
 }

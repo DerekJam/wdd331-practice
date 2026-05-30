@@ -4,12 +4,7 @@
 
 
 .u3site-nav {
-          background-color: var(--color-cards);
-          color: var(--color-cards-text);
-          padding: var(--spacing-medium);
-          border-radius: var(--radius);
-          box-shadow: var(--shadow-sm);
-          font-family: var(--font-family);
+          
 }
 
 
@@ -18,10 +13,5 @@
 
 
 .u3site-footer {
-          background-color: var(--color-cards);
-          color: var(--color-cards-text);
-          padding: var(--spacing-medium);
-          border-radius: var(--radius);
-          box-shadow: var(--shadow-sm);
-          font-family: var(--font-family);
+
 }

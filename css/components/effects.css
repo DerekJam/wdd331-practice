@@ -25,3 +25,21 @@
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
    padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
 }
+
+.card-section {
+
+}
+
+.card-body {
+
+}
+
+.card {
+    border: 3px solid var(--cell-around);
+    background-color: var(--color-lightblue);
+    color: var(--color-text-sections-darkblue);
+    padding: var(--space-md);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    font-family: var(--font-body);
+}

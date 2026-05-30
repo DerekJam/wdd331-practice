@@ -42,23 +42,17 @@
 }
 
 .button     { box-shadow: var(--shadow-small); }
-.card       { box-shadow: var(--shadow-medium); }
+.cardu3       { box-shadow: var(--shadow-medium); }
 .modal      { box-shadow: var(--shadow-large); }
 
 
-
-.textshad { text-shadow-try: var(--text-shadow);}
-
-
-
+.cardu3 {
+  position: absolute;
+  }
 
 
-
-
-/* Notes
-Add two elevation levels as custom properties
-these should be layered shadow stacks (two to three layers each) using the pattern from the reading
-name them by purpose, such as shadow-sm and shadow-md or shadow-card and shadow-raised 
-*/
+.cardu3:hover .card-image {
+  opacity: 0.3;
+}
 
 

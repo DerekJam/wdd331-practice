@@ -24,6 +24,15 @@
 }
 
 
+.u3hero-header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
+  text-align: center;
+}
+
 
 
 .u3site-footer {

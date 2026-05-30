@@ -50,6 +50,11 @@
 /* Had AI help because I did not know what the correct CSS was for the hero-image to make it scale full-width, etc. */
 .hero-image {
   width: 100%;
-  height: auto;
+  height: 35%;
   display: block;
+}
+
+
+.p {
+  color: fuchsia;
 }

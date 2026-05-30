@@ -72,11 +72,7 @@
 
 /* Glass panel needs to be adjusted */
 .glass-panel {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  width: 300px;
-  padding: 1rem;
+
 }
 
 

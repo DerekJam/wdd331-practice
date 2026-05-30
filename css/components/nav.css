@@ -12,7 +12,7 @@
 }
 
 .u3site-nav li {
-  float: left;
+  float: center;
 }
 
 .u3site-nav li a {
@@ -27,5 +27,9 @@
 
 
 .u3site-footer {
-
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: blue;
 }

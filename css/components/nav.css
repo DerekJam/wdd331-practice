@@ -12,8 +12,7 @@
 }
 
 .u3site-nav li {
-  display: flex;
-  justify-content: center;
+  float: left;
 }
 
 .u3site-nav li a {
@@ -33,6 +32,6 @@
   padding: 0;
   overflow: hidden;
   background-color: blue;
-  color: white;
+  text-decoration-color: white;
   text-align: center;
 }

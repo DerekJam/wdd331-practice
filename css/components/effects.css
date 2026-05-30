@@ -76,9 +76,8 @@
 }
 
 
-
+/* Glass bg image is okay */
 .glass-bg-image {
-    backdrop-filter: blur(10px);
     opacity: 0.5;
 }
 

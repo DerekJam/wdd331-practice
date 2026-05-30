@@ -145,8 +145,8 @@
 
 
 /* CSS for text shadow*/
-.intro-with-fuchsia-shadow {
-  text-shadow: 4px 4px 8px fuchsia;
-  font-size: 3rem;
+.intro-with-yellow-shadow {
+  text-shadow: 4px 4px 8px yellow;
+  font-size: 1.5rem;
   color: white;
 }

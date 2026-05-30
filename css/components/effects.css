@@ -69,10 +69,8 @@
 
 /* Glass panel needs to be adjusted */
 .glass-panel {
-  width: auto;
-  height: auto;
-  object-fit: cover;
-  display: block;
+  top: 20px;
+  left: 20px;
 }
 
 

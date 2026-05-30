@@ -41,17 +41,17 @@
         
 }
 
-.button     { box-shadow: var(--shadow-small); }
-.cardu3       { box-shadow: var(--shadow-medium); }
-.modal      { box-shadow: var(--shadow-large); }
+.leftimage     { box-shadow: var(--shadow-small); }
+.middleimage       { box-shadow: var(--shadow-medium); }
+.rightimage      { box-shadow: var(--shadow-large); }
 
 
-.cardu3 {
-
+.leftimage {
+position:absolute;
   }
 
 
-.cardu3:hover .card-image {
+.leftimage:hover .card-image {
   opacity: 0.3;
 }
 

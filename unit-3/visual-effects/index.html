@@ -34,7 +34,7 @@
         alt="Tempe Arizona"
     >
 </header>
-<br><br>
+<br><br><br>
 <main>
     <!-- CARDS: Elevation shadows, hover transitions -->
     <section class="card-section">
@@ -85,7 +85,7 @@
             </article>
         </div>
     </section>
-<br><br>
+<br><br><br>
     <!-- GLASS PANEL: backdrop-filter for frosted glass -->
     <section class="glass-section">
                     <h2>Frosted Glass</h2><br>
@@ -95,7 +95,7 @@
                 alt="Background image behind glass panel"
                 class="glass-bg-image"
             >
-        </div>
+        </div><br>
         <div class="glass-panel">
             <p>
                 This panel uses backdrop-filter to blur and saturate the
@@ -104,7 +104,7 @@
             </p>
         </div>
     </section>
-<br><br>
+<br><br><br>
     <!-- ICON ROW: drop-shadow on transparent images -->
     <section class="icon-section">
         <h2>Drop Shadow on Transparent Images</h2>
@@ -115,7 +115,7 @@
             <img class="icon-item" src="https://cdn.jsdelivr.net/npm/@tabler/icons@2.47.0/icons/star.svg" alt="Star icon">
             <img class="icon-item" src="https://cdn.jsdelivr.net/npm/@tabler/icons@2.47.0/icons/bookmark.svg" alt="Bookmark icon">
             <img class="icon-item" src="https://cdn.jsdelivr.net/npm/@tabler/icons@2.47.0/icons/message-circle.svg" alt="Message icon">
-        </div>
+        </div><br>
         <p>
             These icons use drop-shadow() instead of box-shadow so the shadow
             follows the actual shape of each image rather than its bounding box.
@@ -130,20 +130,37 @@
         from it. Add the HTML you need and style it in your effects.css.
         DJS: I added this below
     -->
-<br><br>
-<section class="cards-polygon-blur">
+<br><br><br>
+
+
+
+<section class="card-section">
     <h2>Polygon Clip-wrap and Filter-blur</h2>
 <br>
-    <div class="clip-wrap">
-        <img src="https://www.churchofjesuschrist.org/imgs/1338540dbbcfd411090e1506ddd7bfb3f94a10c9/full/!320,/0/default" 
-        alt="demo-clip-css" class="element">
+    <div class="cards">
+            <article class="card">
+                    <img src="https://www.churchofjesuschrist.org/imgs/1338540dbbcfd411090e1506ddd7bfb3f94a10c9/full/!320,/0/default" 
+                    alt="demo-clip-css" class="element">
+            
+                <div class="card-body">
+                    <h3>SUPERMAN</h3>
+                    <p>Faster than a speeding bullet</p>
+                </div>   
+            </article>
+            <article class="card">
+                    <img src="https://www.churchofjesuschrist.org/imgs/9knz0ov0r0gsjcscpyqqre30l5zr52uuajqrjuzs/full/!320%2C384/0/default" 
+                    alt="Image behind" class="blur">
+                <div class="card-body">
+                    <h3>BATMAN</h3>
+                    <p>The ultimate detective</p>
+                </div>  
+            </article>
     </div>
 
     <div class="filter-blur">
-        <img src="https://www.churchofjesuschrist.org/imgs/9knz0ov0r0gsjcscpyqqre30l5zr52uuajqrjuzs/full/!320%2C384/0/default" 
-        alt="Image behind" class="blur">
     </div>
         <p>Here are examples of clip-wrap and filter-blur</p>
+        
 </section>
 
 

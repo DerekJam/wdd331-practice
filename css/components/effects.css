@@ -20,15 +20,109 @@
   filter: blur(3px);
 }
 
+
+
+
+
+.card-section {
+    /* margin-bottom using a token */
+
+    h4 {
+        /* section heading styles */
+          background-color: var(--color-accent);
+          color: var(--color-cards-text);
+          padding: var(--spacing-medium);
+          border-radius: var(--radius);
+          box-shadow: var(--shadow-sm);
+          font-family: var(--font-body-header);
+    }
+}
+
 .cards {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
    padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
 }
 
-.card-section {
 
+
+
+
+
+
+
+.glass-section {
+    /* margin-bottom using a token */
+
+    h4 {
+        /* section heading styles */
+          background-color: var(--color-accent);
+          color: var(--color-cards-text);
+          padding: var(--spacing-medium);
+          border-radius: var(--radius);
+          box-shadow: var(--shadow-sm);
+          font-family: var(--font-body-header);
+    }
 }
+
+.glass-background {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+}
+
+.glass-panel {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+}
+
+
+
+
+
+
+
+
+
+.icon-section {
+    /* margin-bottom using a token */
+
+    h4 {
+        /* section heading styles */
+          background-color: var(--color-accent);
+          color: var(--color-cards-text);
+          padding: var(--spacing-medium);
+          border-radius: var(--radius);
+          box-shadow: var(--shadow-sm);
+          font-family: var(--font-body-header);
+    }
+}
+
+.icon-row {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+}
+
+
+
+
+
+.cards-polygon-blur {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+}
+
+
+
+
+
+
+
+
+
 
 .card-body {
 

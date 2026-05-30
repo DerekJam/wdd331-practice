@@ -42,8 +42,22 @@
 .modal      { box-shadow: var(--shadow-large); }
 
 
+.clip-wrap {
+  text-align: center;
+}
 
+.element {
+  clip-path: polygon(0 100%, 0 0, 100% 0, 80% 100%);
+}
 
+.filter-blur {
+  text-align: center;
+}
+
+.blur {
+  clip-path: circle();
+  filter: blur(8px);
+}
 
 
 

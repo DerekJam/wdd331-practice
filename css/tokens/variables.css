@@ -56,3 +56,11 @@ position:absolute;
 }
 
 
+.middleimage {
+position:absolute;
+  }
+
+
+.middleimage:hover .card-image {
+  opacity: 0.3;
+}

@@ -47,7 +47,7 @@
 
 
 .leftimage {
-position:absolute;
+position:relative;
 left: 0;
 top: 0;
   }
@@ -59,7 +59,7 @@ top: 0;
 
 
 .middleimage {
-position:absolute;
+position:relative;
 left: 400px;
 top: 0;
   }

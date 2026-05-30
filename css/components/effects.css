@@ -147,6 +147,11 @@
 /* CSS for text shadow*/
 .intro-with-yellow-shadow {
   text-shadow: 4px 4px 8px yellow;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: white;
+}
+
+
+.glass-background {
+  backdrop-filter: blur(10px);
 }

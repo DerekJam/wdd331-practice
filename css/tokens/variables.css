@@ -64,18 +64,18 @@
 
    .card-body {
         /* card body for elevation cards */
-         color: var(--color-vlinks);
+         color: white;
          text-align: left;
-         margin: var(--spacing-small);
+         margin: var(--spacing-medium);
          padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-medium));
          line-height: 1.2;
         }
 
     .card-body2 {
         /* card body for middle card in elevation cards */
-         color: var(--color-vlinks);
+         color: white;
          text-align: left;
-         margin: var(--spacing-small);
+         margin: var(--spacing-medium);
          padding: clamp(var(--spacing-small), var(--spacing-flex), var(--spacing-medium));
          line-height: 1.2;
         }

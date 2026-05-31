@@ -53,5 +53,9 @@
 }
 
 
+.middleimage:hover .card-image {
+  background-color: green;
+  background-image: -o-linear-gradient(to right, green, blue);
+}
 
 

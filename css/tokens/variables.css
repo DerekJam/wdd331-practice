@@ -58,6 +58,9 @@
   background-image: -o-linear-gradient(to right, green, blue);
 }
 
+.rightimage:hover .card-image {
+  filter: sepia(100%);
+}
 
 
 

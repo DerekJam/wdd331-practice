@@ -123,6 +123,7 @@
   height: 60px;
   width: 60px;
   object-fit: contain;
+  filter: drop-shadow(30px 10px 4px fuchsia);
 }
 
 

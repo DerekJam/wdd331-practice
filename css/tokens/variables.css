@@ -54,7 +54,7 @@
 
 
 .middleimage:hover .card-body2{
-  background: linear-gradient(to right, green, blue);
+  background: linear-gradient(to right, blue, green);
 }
 
 .rightimage:hover .card-image {

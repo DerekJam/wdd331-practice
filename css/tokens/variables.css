@@ -21,20 +21,20 @@
 
     /* Level 1: Shadow Small */
         --shadow-small:
-        0 1px 2px oklch(0.2 0 0 / 0.1),
-        0 2px 4px oklch(0.2 0 0 / 0.06);
+        0 1px 2px oklch(62.832% 0.25728 29.173),
+        0 2px 4px oklch(62.832% 0.25728 29.173);
 
     /* Level 2: Shadow Medium */
         --shadow-medium:
-        0 2px 4px oklch(0.2 0 0 / 0.1),
-        0 6px 12px oklch(0.2 0 0 / 0.07),
-        0 16px 32px oklch(0.2 0 0 / 0.05);
+        0 2px 4px oklch(100% 0.00011 271.152),
+        0 6px 12px oklch(100% 0.00011 271.152),
+        0 16px 32px oklch(100% 0.00011 271.152);
 
     /* Level 3: Shadow Large */
         --shadow-large:
-        0 4px 8px oklch(0.2 0 0 / 0.1),
-        0 12px 24px oklch(0.2 0 0 / 0.08),
-        0 24px 48px oklch(0.2 0 0 / 0.06);
+        0 4px 8px oklch(87.587% 0.28215 140.052),
+        0 12px 24px oklch(87.587% 0.28215 140.052),
+        0 24px 48px oklch(87.587% 0.28215 140.052);
 
         /* Text Shadow from examples */
         --text-shadow: #ffcc00 1px 0 10px;

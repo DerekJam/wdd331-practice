@@ -9,14 +9,34 @@
     gap: 1rem;
 }
 
-.editorial-page-header  { grid-area: header; }
+.page-header  { grid-area: header; }
 .editorial-page-sidebar { grid-area: sidebar; }
 .editorial-page-main    { grid-area: main; }
-.editorial-page-footer  { grid-area: footer; }
+.page-footer  { grid-area: footer; }
+
+.page-header {
+    max-width: 64rem;
+    width: 100%;
+    margin-inline: auto;
+    padding: var(--space-lg, 2rem) var(--space-md, 1rem);
+}
+
+.page-footer {
+    max-width: 64rem;
+    width: 100%;
+    margin-inline: auto;
+    padding: var(--space-lg, 2rem) var(--space-md, 1rem);
+}
 
 
 
+/* Header and Footer need to sit outside .layout
+How to do this?
 
+See about for small screens for it to stack in single column 
+Wider screens it is two columns
+This is either Grid or Flexbox
+ */
 
 
 

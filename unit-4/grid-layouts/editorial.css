@@ -8,14 +8,16 @@
 }
 
 
-.editorial-page-aside { grid-area: aside; }
-.editorial-page-main    { grid-area: main; }
+.layout aside { grid-area: aside; }
+.layout main    { grid-area: main; }
 
 
 header {
     max-width: 64rem;
     width: 100%;
     margin-inline: auto;
+    display: flex;
+    flex-direction:column;
     padding: var(--space-lg, 2rem) var(--space-md, 1rem);
 }
 
@@ -23,10 +25,18 @@ footer {
     max-width: 64rem;
     width: 100%;
     margin-inline: auto;
+    display: flex;
+    flex-direction:column;
     padding: var(--space-lg, 2rem) var(--space-md, 1rem);
 }
 
-
+:root {
+    /* Spacing Tokens*/
+      --spacing-small: 0.50rem;
+      --spacing-medium: 1.00rem;
+      --spacing-large: 1.50rem;
+      --spacing-flex: 2vw;
+}
 
 /* Header and Footer need to sit outside .layout
 How to do this?
@@ -34,6 +44,11 @@ How to do this?
 See about for small screens for it to stack in single column 
 Wider screens it is two columns
 This is either Grid or Flexbox
+
+AI states below:
+Easy way to remember
+Flexbox = arranging things in a line
+Grid = drawing a map of a page
  */
 
 

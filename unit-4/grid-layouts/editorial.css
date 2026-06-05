@@ -3,7 +3,7 @@
     grid-template-columns: 250px 1fr;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
-        ". sidebar main"
+        "main sidebar"
     gap: 1rem;
 }
 

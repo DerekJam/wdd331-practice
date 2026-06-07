@@ -81,38 +81,8 @@ articles-page {
     }
 }
 
-/* ========================================
-   NAVIGATION
-   Style .site-nav so students can get
-   back to the homepage.
-   ======================================== */
-.site-nav {
-    /* padding, margin-bottom */
-   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
-}
 
-/* ========================================
-   BOARD HEADER
-   Style the page header area.
-   ======================================== */
-.board-header {
-    /* text alignment, margin, padding */
-    /* Use clamp() for the h1 font size. */
 
-   text-align: center;
-   margin: var(--space-md);
-   padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
-
-    h1 {
-        /* fluid font size */
-       font-size: clamp(var(1.5rem, 2.0rem, 2.5rem));
-    }
-
-    p {
-        /* muted text color, spacing */
-              color: var(--color-text-sections-darkblue);
-    }
-}
 
 /* ========================================
    CARD GROUP
@@ -141,7 +111,7 @@ articles-page {
 .card-grid {
     /* display, gap (use calc to derive from a token), columns */
    display: grid;
-   grid-template-columns: 1fr;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
    padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
 
 }
@@ -167,7 +137,7 @@ articles-page {
        color: var(--color-text-sections-darkblue);
     }
 
-    h3 {
+    h2 {
         /* card title styles */
         color: var(--color-gold);
     }

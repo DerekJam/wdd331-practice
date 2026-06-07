@@ -62,21 +62,21 @@ once added (thanks AI), got better
 
 
 header {
-    max-width: 64rem;
-    width: 100%;
+    width: max-content;
     margin-inline: auto;
     display: flex;
     flex-direction:column;
     padding: var(--spacing-large, 2rem) var(--spacing-medium, 1rem);
+    background-color: lightgoldenrodyellow;
 }
 
 footer {
-    max-width: 64rem;
-    width: 100%;
+    width: max-content;
     margin-inline: auto;
     display: flex;
     flex-direction:column;
-    padding: var(--spacing-flex, 2rem) var(--spacing-flex, 1rem);
+    padding: var(--spacing-large, 2rem) var(--spacing-medium, 1rem);
+    background-color: lightgoldenrodyellow;
 }
 
 :root {

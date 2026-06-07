@@ -88,7 +88,7 @@ articles-page {
 
 
 header {
-    max-width: 64rem;
+    max-width: 80%;
     width: 100%;
     margin-inline: auto;
     display: flex;

@@ -2,13 +2,9 @@
       --color-main-bgdark: #000814;
       --color-gold: #FFC300;
       --color-carolinablue: #0077B6;
-      --color-text-sectionheaders-yellow: #FFFF00;
       --color-text: #FFFFFF; 
-      --color-visitedlinks-gray: #D3D3D3;
-      --color-hoveringlinks-magenta: #FF00FF;
       --color-background: #4B9CD3;
-      --color-lightgray: #D3D3D3;
-
+      
       --space-xs: 0.50rem;
       --space-sm: 0.75rem;
       --space-md: 1.25rem;

@@ -46,19 +46,11 @@ articles-page {
     box-shadow: var(--shadow-sm);
     font-family: var(--font-body);
 
-}
 
-
-
-
-
-.card-group {
-    /* margin-bottom using a token */
-
-    h2 {
+        h2 {
         /* section heading styles */
           background-color: var(--color-carolinablue);
-          color: var(--color-text-sectionheaders-yellow);
+          color: var(--color-hoveringlinks-magenta);
           padding: var(--space-md);
           border-radius: var(--radius);
           box-shadow: var(--shadow-sm);
@@ -96,13 +88,5 @@ header {
     padding: var(--space-lg, 2rem) var(--space-md, 1rem);
 }
 
-footer {
-    max-width: 64rem;
-    width: 100%;
-    margin-inline: auto;
-    display: flex;
-    flex-direction:column;
-    padding: var(--space-flex, 2rem) var(--space-flex, 1rem);
-}
 
 

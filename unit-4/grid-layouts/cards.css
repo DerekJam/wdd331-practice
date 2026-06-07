@@ -1,7 +1,6 @@
 :root {
       --color-main-bgdark: #000814;
-      --color-gold: #FFC300;
-      --color-carolinablue: #0077B6;
+      --color-header: #39FF14;
       --color-text: #FFFFFF; 
       --color-background: #4B9CD3;
       
@@ -36,7 +35,7 @@
 
 .articles-page {
     background-color: var(--color-main-bgdark);
-    color: var(--color-gold);
+    color: var(--color-header);
     padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);

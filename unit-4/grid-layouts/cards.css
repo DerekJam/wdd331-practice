@@ -3,10 +3,10 @@
       --color-gold: #FFC300;
       --color-carolinablue: #0077B6;
       --color-text-sectionheaders-yellow: #FFFF00;
-      --color-text-sections-darkblue: #FFFFFF; 
+      --color-text: #FFFFFF; 
       --color-visitedlinks-gray: #D3D3D3;
       --color-hoveringlinks-magenta: #FF00FF;
-      --color-lightblue: #4B9CD3;
+      --color-background: #4B9CD3;
       --color-lightgray: #D3D3D3;
 
       --space-xs: 0.50rem;
@@ -38,15 +38,13 @@
 }
 
 
-articles-page {
+.articles-page {
     background-color: var(--color-main-bgdark);
     color: var(--color-gold);
     padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);
     font-family: var(--font-body);
-
-
 
 }
 
@@ -61,23 +59,13 @@ articles-page {
 
 .card {
     border: 3px solid var(--cell-around);
-    background-color: var(--color-lightblue);
-    color: var(--color-text-sections-darkblue);
+    background-color: var(--color-background);
+    color: var(--color-text);
     padding: var(--space-md);
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);
     font-family: var(--font-body);
 
-
-            h2 {
-        /* section heading styles */
-          background-color: var(--color-carolinablue);
-          color: var(--color-hoveringlinks-magenta);
-          padding: var(--space-md);
-          border-radius: var(--radius);
-          box-shadow: var(--shadow-sm);
-          font-family: var(--font-body-header);
-    }
 }
 
 

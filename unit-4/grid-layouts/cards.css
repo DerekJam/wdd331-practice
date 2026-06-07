@@ -141,7 +141,7 @@ articles-page {
 .cards {
     /* display, gap (use calc to derive from a token), columns */
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   grid-template-columns: 1fr;
    padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
 
 }

@@ -34,7 +34,7 @@
 *::after {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 10;
 }
 
 
@@ -47,15 +47,7 @@ articles-page {
     font-family: var(--font-body);
 
 
-        h2 {
-        /* section heading styles */
-          background-color: var(--color-carolinablue);
-          color: var(--color-hoveringlinks-magenta);
-          padding: var(--space-md);
-          border-radius: var(--radius);
-          box-shadow: var(--shadow-sm);
-          font-family: var(--font-body-header);
-    }
+
 }
 
 
@@ -75,6 +67,17 @@ articles-page {
     border-radius: var(--radius);
     box-shadow: var(--shadow-sm);
     font-family: var(--font-body);
+
+
+            h2 {
+        /* section heading styles */
+          background-color: var(--color-carolinablue);
+          color: var(--color-hoveringlinks-magenta);
+          padding: var(--space-md);
+          border-radius: var(--radius);
+          box-shadow: var(--shadow-sm);
+          font-family: var(--font-body-header);
+    }
 }
 
 

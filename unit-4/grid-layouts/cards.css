@@ -1,11 +1,4 @@
-/* ========================================
-   TOKENS
-   Define your design decisions here.
-   Everything else in this file should
-   reference these tokens with var().
-   ======================================== */
 :root {
-    /* Colors */
       --color-main-bgdark: #000814;
       --color-gold: #FFC300;
       --color-carolinablue: #0077B6;
@@ -16,7 +9,6 @@
       --color-lightblue: #4B9CD3;
       --color-lightgray: #D3D3D3;
 
-    /* Spacing */
       --space-xs: 0.50rem;
       --space-sm: 0.75rem;
       --space-md: 1.25rem;
@@ -24,7 +16,6 @@
       --space-xl: 5rem;
       --space-flex: 2vw;
   
-    /* Typography */ 
       --font-body: Verdana, Helvetica, sans-serif;
       --font-body-header: "Times New Roman", Times, serif;
       --font-size: 1.50rem;
@@ -33,17 +24,11 @@
       --font-weight: 1.0rem;
       --letter-spacing: .25rem; 
 
-    /* Borders */  
       --radius: 0.50rem;
       --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* ========================================
-   RESET
-   A minimal reset so you start clean.
-   Basically, this is allowing the page to render clean from all browsers.
-   Removes browser-specific styling.
-   ======================================== */
+
 *,
 *::before,
 *::after {
@@ -52,14 +37,8 @@
     padding: 0;
 }
 
-/* ========================================
-   BASE STYLES
-   Style the body, links, and any raw
-   HTML elements here. Use nesting.
-   ======================================== */
+
 articles-page {
-    /* font family, color, background, line-height, padding */
-    /* Use clamp() for padding to make it fluid. */
     background-color: var(--color-main-bgdark);
     color: var(--color-gold);
     padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
@@ -67,18 +46,6 @@ articles-page {
     box-shadow: var(--shadow-sm);
     font-family: var(--font-body);
 
-
-    a {
-        /* link color from tokens */
-         color: var(--color-visitedlinks-gray);
-       
-        &:hover {
-            /* hover color from tokens */
-         color: var(--color-hoveringlinks-magenta);
-
-           
-        }
-    }
 }
 
 
@@ -101,7 +68,6 @@ articles-page {
 
 
 .card-grid {
-    /* display, gap (use calc to derive from a token), columns */
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
    padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
@@ -110,8 +76,6 @@ articles-page {
 
 
 .card {
-    /* background, padding, border-radius, shadow */
-    /* Use a var() with a fallback value here. */
     border: 3px solid var(--cell-around);
     background-color: var(--color-lightblue);
     color: var(--color-text-sections-darkblue);
@@ -121,16 +85,24 @@ articles-page {
     font-family: var(--font-body);
 }
 
-    h2 {
-        /* card title styles */
-        color: var(--color-green);
-    }
 
 
-    p {
-        /* card body text */
-               color: var(--color-text-sections-darkblue);
-    }
+header {
+    max-width: 64rem;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction:column;
+    padding: var(--space-lg, 2rem) var(--space-md, 1rem);
+}
 
+footer {
+    max-width: 64rem;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction:column;
+    padding: var(--space-flex, 2rem) var(--space-flex, 1rem);
+}
 
 

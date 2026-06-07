@@ -4,6 +4,7 @@
       --color-text: #FFFFFF; 
       --color-background: #4B9CD3;
       --max: gray;
+      --h2-color: red;
       --color-text-sections-darkblue: darkblue; 
       
       --space-xs: 0.50rem;
@@ -53,7 +54,7 @@
 
        h2 {
         /* section heading styles */
-          color: var(--max);
+          color: var(--h2-color);
 
     }
   

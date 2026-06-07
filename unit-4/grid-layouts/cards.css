@@ -57,7 +57,7 @@
    Style the body, links, and any raw
    HTML elements here. Use nesting.
    ======================================== */
-body {
+articles-page {
     /* font family, color, background, line-height, padding */
     /* Use clamp() for padding to make it fluid. */
     background-color: var(--color-main-bgdark);

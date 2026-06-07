@@ -1,0 +1,199 @@
+/* ========================================
+   TOKENS
+   Define your design decisions here.
+   Everything else in this file should
+   reference these tokens with var().
+   ======================================== */
+:root {
+    /* Colors */
+      --color-main-bgdark: #000814;
+      --color-gold: #FFC300;
+      --color-carolinablue: #0077B6;
+      --color-text-sectionheaders-yellow: #FFFF00;
+      --color-text-sections-darkblue: #FFFFFF; 
+      --color-visitedlinks-gray: #D3D3D3;
+      --color-hoveringlinks-magenta: #FF00FF;
+      --color-lightblue: #4B9CD3;
+      --color-lightgray: #D3D3D3;
+
+    /* Spacing */
+      --space-xs: 0.50rem;
+      --space-sm: 0.75rem;
+      --space-md: 1.25rem;
+      --space-lg: 2.50rem;
+      --space-xl: 5rem;
+      --space-flex: 2vw;
+  
+    /* Typography */ 
+      --font-body: Verdana, Helvetica, sans-serif;
+      --font-body-header: "Times New Roman", Times, serif;
+      --font-size: 1.50rem;
+      --font-size-header: 2.0rem;
+      --line-height: 1.75rem;
+      --font-weight: 1.0rem;
+      --letter-spacing: .25rem; 
+
+    /* Borders */  
+      --radius: 0.50rem;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* ========================================
+   RESET
+   A minimal reset so you start clean.
+   Basically, this is allowing the page to render clean from all browsers.
+   Removes browser-specific styling.
+   ======================================== */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ========================================
+   BASE STYLES
+   Style the body, links, and any raw
+   HTML elements here. Use nesting.
+   ======================================== */
+body {
+    /* font family, color, background, line-height, padding */
+    /* Use clamp() for padding to make it fluid. */
+    background-color: var(--color-main-bgdark);
+    color: var(--color-gold);
+    padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    font-family: var(--font-body);
+
+
+    a {
+        /* link color from tokens */
+         color: var(--color-visitedlinks-gray);
+       
+        &:hover {
+            /* hover color from tokens */
+         color: var(--color-hoveringlinks-magenta);
+
+           
+        }
+    }
+}
+
+/* ========================================
+   NAVIGATION
+   Style .site-nav so students can get
+   back to the homepage.
+   ======================================== */
+.site-nav {
+    /* padding, margin-bottom */
+   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+}
+
+/* ========================================
+   BOARD HEADER
+   Style the page header area.
+   ======================================== */
+.board-header {
+    /* text alignment, margin, padding */
+    /* Use clamp() for the h1 font size. */
+
+   text-align: center;
+   margin: var(--space-md);
+   padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
+
+    h1 {
+        /* fluid font size */
+       font-size: clamp(var(1.5rem, 2.0rem, 2.5rem));
+    }
+
+    p {
+        /* muted text color, spacing */
+              color: var(--color-text-sections-darkblue);
+    }
+}
+
+/* ========================================
+   CARD GROUP
+   Each section of cards (This Week,
+   Coming Up, Announcements).
+   ======================================== */
+.card-group {
+    /* margin-bottom using a token */
+
+    h2 {
+        /* section heading styles */
+          background-color: var(--color-carolinablue);
+          color: var(--color-text-sectionheaders-yellow);
+          padding: var(--space-md);
+          border-radius: var(--radius);
+          box-shadow: var(--shadow-sm);
+          font-family: var(--font-body-header);
+    }
+}
+
+/* ========================================
+   CARDS GRID
+   Layout the .cards container as a
+   responsive grid or flex layout.
+   ======================================== */
+.cards {
+    /* display, gap (use calc to derive from a token), columns */
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+
+}
+
+/* ========================================
+   INDIVIDUAL CARD
+   Style each .card article. This is where
+   most of your nesting will happen.
+   ======================================== */
+.card {
+    /* background, padding, border-radius, shadow */
+    /* Use a var() with a fallback value here. */
+    border: 3px solid var(--cell-around);
+    background-color: var(--color-lightblue);
+    color: var(--color-text-sections-darkblue);
+    padding: var(--space-md);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    font-family: var(--font-body);
+}
+    .card-tag {
+        /* small label: font-size, padding, background, border-radius */
+       color: var(--color-text-sections-darkblue);
+    }
+
+    h3 {
+        /* card title styles */
+        color: var(--color-gold);
+    }
+
+
+    p {
+        /* card body text */
+               color: var(--color-text-sections-darkblue);
+    }
+
+    .card-meta {
+        /* bottom row: flexbox with space-between */
+        /* style the span and link inside here with nesting */
+       color: var(--color-lightgray);
+       padding: var(--space-md);
+    }
+
+
+/* ========================================
+   FOOTER
+   Style the .board-footer at the bottom.
+   ======================================== */
+.board-footer {
+    /* text alignment, padding, muted color, top border */
+      text-align: center;
+      margin: var(--space-md);
+      padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
+
+}

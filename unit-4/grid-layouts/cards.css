@@ -3,6 +3,7 @@
       --color-header: #39FF14;
       --color-text: #FFFFFF; 
       --color-background: #4B9CD3;
+      --max: red;
       
       --space-xs: 0.50rem;
       --space-sm: 0.75rem;
@@ -71,6 +72,7 @@ header {
     display: flex;
     flex-direction:column;
     padding: var(--space-lg, 2rem) var(--space-md, 1rem);
+    background-color: var(--max);
 }
 
 

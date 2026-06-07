@@ -138,7 +138,7 @@ articles-page {
    Layout the .cards container as a
    responsive grid or flex layout.
    ======================================== */
-.cards {
+.card-grid {
     /* display, gap (use calc to derive from a token), columns */
    display: grid;
    grid-template-columns: 1fr;

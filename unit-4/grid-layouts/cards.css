@@ -186,14 +186,3 @@ articles-page {
     }
 
 
-/* ========================================
-   FOOTER
-   Style the .board-footer at the bottom.
-   ======================================== */
-.board-footer {
-    /* text alignment, padding, muted color, top border */
-      text-align: center;
-      margin: var(--space-md);
-      padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
-
-}

@@ -6,6 +6,18 @@
     overscroll-behavior-x: contain;
     gap: var(--spacing-md);
     padding-inline: var(--space-md);
+
+       h2 {
+        /* section heading styles */
+          color: var(--h2-color);
+
+    }
+  
+    p {
+        /* muted text color, spacing */
+              color: var(--color-text-sections-darkblue);
+    }
+
 }
 
 .carousel-card {

@@ -6,7 +6,7 @@
     overscroll-behavior-x: contain;
     gap: var(--spacing-md);
     padding-inline: var(--space-md);
-
+    scrollbar-width: none;
        h2 {
         /* section heading styles */
           color: var(--h2-color);
@@ -85,35 +85,6 @@
 }
 
 
-.card-grid {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
-
-       h2 {
-        /* section heading styles */
-          color: var(--h2-color);
-
-    }
-  
-    p {
-        /* muted text color, spacing */
-              color: var(--color-text-sections-darkblue);
-    }
-
-}
-
-
-.card {
-    border: 3px solid var(--cell-around);
-    background-color: var(--color-background);
-    color: var(--color-text);
-    padding: var(--space-md);
-    border-radius: var(--radius);
-    box-shadow: var(--shadow-sm);
-    font-family: var(--font-body);
-
-}
 
 
 
@@ -126,5 +97,8 @@ header {
     background-color: var(--max);
 }
 
+
+
+::-webkit-scrollbar { display: none; }
 
 

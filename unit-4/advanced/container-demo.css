@@ -3,7 +3,7 @@
 
 .container-page .layout{
     display: grid;
-    grid-template-columns: 1fr 250px;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
         "main aside";

@@ -75,6 +75,14 @@
     box-shadow: var(--shadow-sm);
     font-family: var(--font-body);
 
+    /* Span three rows in the parent grid */
+    grid-row: span 3;
+
+    /* Become a grid container */
+    display: grid;
+    
+    /* Inherit those three row tracks from the parent */
+    grid-template-rows: subgrid;
 }
 
 

@@ -32,7 +32,8 @@ header {
     padding: var(--spacing-large, 2rem) var(--spacing-medium, 1rem);
     background-color: var(--color-main-bgdark);
     color: var(--color-text);
-
+    text-align: center;
+    
         a {
          color: var(--color-background);
          }

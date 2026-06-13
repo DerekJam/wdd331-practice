@@ -53,4 +53,36 @@ footer {
 
 
 
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    gap: var(--spacing-md);
+    padding-inline: var(--space-md);
+    scrollbar-width: none;
+       h2 {
+        /* section heading styles */
+          color: var(--h2-color);
+
+    }
+  
+    p {
+        /* muted text color, spacing */
+              color: var(--color-text-sections-darkblue);
+    }
+
+}
+
+.carousel-card {
+    flex: 0 0 clamp(260px, 80vw, 360px);
+    scroll-snap-align: start;
+    border: 3px solid var(--cell-around);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    padding: var(--space-md);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    font-family: var(--font-body);
+}
 

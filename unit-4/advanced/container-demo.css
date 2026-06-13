@@ -8,7 +8,7 @@
     grid-template-areas:
         "main aside";
     gap: 1rem;
-    background-color: lightblue;
+    background-color: var(--color-main-bgdark);
     padding: var(--spacing-flex, 2rem) var(--spacing-flex, 1rem);
 }
 

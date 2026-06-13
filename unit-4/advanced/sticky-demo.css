@@ -2,7 +2,7 @@
 /* Sticks with a gap - useful when a fixed site nav sits above */
 .sticky-header {
     position: sticky;
-    top: 4rem;
+    top: 1rem;
     overflow: visible;
     margin-inline: auto;
     display: flex;

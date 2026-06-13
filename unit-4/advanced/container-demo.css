@@ -3,7 +3,7 @@
 
 .container-page .layout{
     display: grid;
-    grid-template-columns: 250px 1fr;
+    grid-template-columns: 1fr 250px;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
         "main aside";
@@ -76,7 +76,7 @@ footer {
 *::after {
     box-sizing: border-box;
     margin: 0;
-    padding: 10;
+    padding: 10px;
 }
 
 
@@ -86,27 +86,25 @@ footer {
 .card-grid {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-   grid-template-rows: auto 1fr auto;
    gap: 1.5rem;
    align-items: stretch;
    padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+}
 
-       h2 {
-        /* section heading styles */
-          color: var(--h2-color);
+.card-grid h2 {
+   color: var(--h2-color);
+}
 
-    }
-  
-    p {
-        /* muted text color, spacing */
-              color: var(--color-text-sections-darkblue);
-    }
-
+.card-grid p {
+   color: var(--color-text-sections-darkblue);
 }
 
 
+
+
+
 .card {
-    border: 3px solid var(--cell-around);
+    border: 3px solid var(--max);
     background-color: var(--color-background);
     color: var(--color-text);
     padding: var(--space-md);
@@ -118,7 +116,8 @@ footer {
     grid-row: span 3;
 
     /* Become a grid container */
-    display: grid;
+    display: flex;
+    flex-direction: column;
 
     /* Inherit those three row tracks from the parent */
     grid-template-rows: subgrid;

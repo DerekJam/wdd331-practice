@@ -103,3 +103,14 @@ header {
 
 
 
+/* Progressive enhancement: share tracks with the parent */
+@supports (grid-template-rows: subgrid) {
+    .card-grid {
+        grid-template-rows: auto 1fr auto;
+        align-items: stretch;
+    }
+    .card {
+        grid-row: span 3;
+        grid-template-rows: subgrid;
+    }
+}

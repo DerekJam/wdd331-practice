@@ -3,9 +3,26 @@
 .sticky-header {
     position: sticky;
     top: 4rem;
-    color: var(--color-header);
-    text-align: center;
     overflow: visible;
+    margin-inline: auto;
+    display: flex;
+    flex-direction:column;
+    padding: var(--spacing-large, 2rem) var(--spacing-medium, 1rem);
+    background-color: var(--color-main-bgdark);
+    color: var(--color-text);
+    text-align: center;
+    
+        a {
+         color: var(--color-background);
+         }
+
+        a:hover {
+         color: var(--h2-color);
+         }
+
+        a:visited {
+         color: var(--max);
+         }
 }
 
 

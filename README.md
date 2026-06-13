@@ -19,3 +19,8 @@ every push to main.
 - Visual Effects (unit-3/visual-effects/index.html)
 - Editorial (unit-4/grid-layouts/editorial.html)
 - Cards (unit-4/grid-layouts/cards.html)
+- Scroll Snap (unit-4/advanced/snap-carousel.html)
+- Container Demo (unit-4/advanced/container-demo.html)
+- Sticky Demo (unit-4/advanced/sticky-demo.html)
+- Updated Card Grid 1 (unit-4/advanced/snap-carousel.html)
+- Updated Card Grid 2 (unit-4/advanced2/snap-carousel.html)

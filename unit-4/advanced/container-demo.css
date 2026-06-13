@@ -34,11 +34,15 @@ header {
     color: var(--color-text)
 
         a {
-         color: var(--h2-color);
+         color: var(--color-background);
          }
 
         a:hover {
          color: var(--h2-color);
+         }
+
+        a:visited {
+         color: var(--max);
          }
 
 }

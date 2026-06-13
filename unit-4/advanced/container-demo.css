@@ -33,7 +33,7 @@ header {
     background-color: var(--color-main-bgdark);
     color: var(--color-text)
 
-        a {
+        a: {
          color: var(--color-background);
          }
 

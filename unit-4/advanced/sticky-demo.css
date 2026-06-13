@@ -1,12 +1,4 @@
-/* Does nothing - no threshold defined */
-.sticky-header {
-    position: sticky;
-}
-/* Sticks 0px from the top of the scroll container */
-.sticky-header {
-    position: sticky;
-    top: 0;
-}
+
 /* Sticks with a gap - useful when a fixed site nav sits above */
 .sticky-header {
     position: sticky;

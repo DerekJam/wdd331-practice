@@ -5,6 +5,7 @@
     top: 4rem;
     color: var(--color-header);
     text-align: center;
+    overflow: visible;
 }
 
 

@@ -3,6 +3,8 @@
 .sticky-header {
     position: sticky;
     top: 4rem;
+    color: var(--color-header);
+    text-align: center;
 }
 
 

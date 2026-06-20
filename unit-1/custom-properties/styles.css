@@ -25,10 +25,6 @@
       --space-flex: 2vw;
   
     /* Typography */ 
-      --font-body: Verdana, Helvetica, sans-serif;
-      --font-body-header: "Times New Roman", Times, serif;
-      --font-size: 1.50rem;
-      --font-size-header: 2.0rem;
       --line-height: 1.75rem;
       --font-weight: 1.0rem;
       --letter-spacing: .25rem; 
@@ -57,6 +53,8 @@
    Style the body, links, and any raw
    HTML elements here. Use nesting.
    ======================================== */
+
+
 body {
     /* font family, color, background, line-height, padding */
     /* Use clamp() for padding to make it fluid. */

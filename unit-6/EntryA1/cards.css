@@ -1,0 +1,129 @@
+:root {
+      --color-main-bgdark: black;
+      --color-header: #39FF14;
+      --color-text: #FFFFFF; 
+      --color-background: #4B9CD3;
+      --max: gray;
+      --h2-color: gold;
+      --color-text-sections-darkblue: darkblue; 
+      
+      --space-xs: 0.50rem;
+      --space-sm: 0.75rem;
+      --space-md: 1.25rem;
+      --space-lg: 2.50rem;
+      --space-xl: 5rem;
+      --space-flex: 2vw;
+  
+      --font-body: Verdana, Helvetica, sans-serif;
+      --font-body-header: "Times New Roman", Times, serif;
+      --font-size: 1.50rem;
+      --font-size-header: 2.0rem;
+      --line-height: 1.75rem;
+      --font-weight: 1.0rem;
+      --letter-spacing: .25rem; 
+
+      --radius: 0.50rem;
+      --shadow-sm: 0 1px 3px rgb(255, 255, 255);
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10;
+}
+
+
+.articles-page {
+    background-color: var(--color-main-bgdark);
+    color: var(--color-header);
+    padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    font-family: var(--font-body);
+
+}
+
+
+.card-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   grid-template-rows: auto 1fr auto;
+   gap: 1.5rem;
+   align-items: stretch;
+   padding: clamp(var(--space-sm), var(--space-md), var(--space-lg));
+
+       h2 {
+        /* section heading styles */
+          color: var(--h2-color);
+
+    }
+  
+    p {
+        /* muted text color, spacing */
+              color: var(--color-text-sections-darkblue);
+    }
+
+}
+
+
+.card {
+    border: 3px solid var(--cell-around);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    padding: var(--space-md);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    font-family: var(--font-body);
+
+    /* Span three rows in the parent grid */
+    grid-row: span 3;
+
+    /* Become a grid container */
+    display: grid;
+
+    /* Inherit those three row tracks from the parent */
+    grid-template-rows: subgrid;
+
+    gap: 0.75rem;
+}
+
+
+
+header {
+    width: max-content;
+    margin-inline: auto;
+    display: flex;
+    flex-direction:column;
+    padding: var(--space-lg, 2rem) var(--space-md, 1rem);
+    background-color: var(--max);
+}
+
+
+
+/* Progressive enhancement: share tracks with the parent */
+@supports (grid-template-rows: subgrid) {
+    .card-grid {
+        grid-template-rows: auto 1fr auto;
+        align-items: stretch;
+    }
+    .card {
+        grid-row: span 3;
+        grid-template-rows: subgrid;
+    }
+}
+
+.toast {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms ease-out, transform 300ms ease-out;
+}
+
+@starting-style {
+    .toast {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+}

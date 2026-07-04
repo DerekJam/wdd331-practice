@@ -16,6 +16,7 @@ every push to main.
 - [Home](index.html)
 - Custom Properties and Nesting(unit-1/custom-properties/index.html)
 - Layered Components (unit-2/index.html)
+- Site now supports dark mode and color tokens live in the CSS folders / theme-toggle.css (Added 4 July 2026)
 - Visual Effects (unit-3/visual-effects/index.html)
 - Editorial (unit-4/grid-layouts/editorial.html)
 - Cards (unit-4/grid-layouts/cards.html)

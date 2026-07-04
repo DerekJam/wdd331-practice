@@ -4,7 +4,7 @@
   "description": "**Student:** Derek Steele **Semester:** Spring 2026 **Live Site:** [View Site](https://derekjam.github.io/wdd331-practice/)",
   "main": "index.js",
 "scripts": {
-  "build:css": "lightningcss css/main.css -o dist/styles.css --minify",
+  "build:css": "lightningcss css/main.css -o dist/styles.css --minify --bundle",
   "watch:css": "lightningcss css/main.css -o dist/styles.css --watch"
 },
   "repository": {

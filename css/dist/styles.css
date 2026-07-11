@@ -209,8 +209,12 @@ body {
 
 
 
+
+
 .magic {
-    border: 3px solid var(--max);
+    /* background, padding, border-radius, shadow */
+    /* Use a var() with a fallback value here. */
+    border: 3px solid var(--cell-around);
     background-color: var(--color-background);
     background: linear-gradient(to right, blue, green);
     color: var(--color-header);

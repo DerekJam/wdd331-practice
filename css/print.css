@@ -12,6 +12,7 @@
 
     .card-grid {
         font-size: 12pt;
+        background-color: blue;
     }
 
 
@@ -39,12 +40,7 @@
     }
 
 
-    .brand-header {
-        print-color-adjust: exact;
-        -webkit-print-color-adjust: exact;
-        background: #006eb6;
-        color: #fff;
-    }
+
 
 
     nav,

@@ -398,5 +398,5 @@ div.status {
 
 /* Overrides fill="red" presentation attribute */
 circle {
-    fill: blue;
+    fill: var(--color-text-sectionheaders-yellow);
 }

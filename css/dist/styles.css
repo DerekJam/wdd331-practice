@@ -209,7 +209,7 @@ body {
 
 
 
-.h3 {
+.magic {
     border: 3px solid var(--max);
     background-color: var(--color-background);
     background: linear-gradient(to right, blue, green);

@@ -199,7 +199,7 @@ body {
 
 
 
-
+/* This is for the section headers (Education, Professional, Volunteer Services, Writings, etc.) */
 .magic {
     border: 3px solid var(--cell-around);
     background-color: var(--color-background);
@@ -210,4 +210,6 @@ body {
     box-shadow: var(--shadow-sm);
     font-family: var(--font-body);
     font-size: var(--font-size-links);
+    text-align: center;
 }
+/* This is for the section headers (Education, Professional, Volunteer Services, Writings, etc.) */

@@ -111,6 +111,7 @@ p {
         font-weight: bold;
         color: #000 !important; 
         font-size: 14pt !important;
+        text-underline-position: under !important;
     }
 
 

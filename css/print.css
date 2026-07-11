@@ -1,7 +1,12 @@
 @media print {
     /* These rules apply only when printing */
     body {
+        font-family: Georgia, 'Times New Roman', serif;
         font-size: 12pt;
+        line-height: 1.4;
+        max-width: 45em;
+        margin: 0 auto;
+        color: #000;
     }
 
 
@@ -24,6 +29,21 @@
     
     .btn2 {
         font-size: 12pt;
+    }
+
+
+    a[href]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.9em;
+        color: #555;
+    }
+
+
+    .brand-header {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+        background: #006eb6;
+        color: #fff;
     }
 
 

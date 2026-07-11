@@ -60,12 +60,17 @@
     }
 
 
+.card-tag { color: #000 !important; }
+.card-link { color: #000 !important; }
+.magic { color: #000 !important; }
 
 
-@page {
-    margin: 1in;
+
 }
 
 
 
+
+@page {
+    margin: 1in;
 }

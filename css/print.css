@@ -26,8 +26,13 @@
     .site-header {
         print-color-adjust: exact;
         -webkit-print-color-adjust: exact;
-        background: #006eb6;
-        color: #fff;
+        background: transparent;
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 12pt;
+        line-height: 1.4;
+        max-width: 45em;
+        margin: 0 auto;
+        color: #000;
     }
 
     figure,

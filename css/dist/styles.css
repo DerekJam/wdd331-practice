@@ -188,3 +188,20 @@ body {
       padding: clamp(var(--space-sm), var(--space-flex), var(--space-lg));
 
 }
+
+
+
+.btn2 {
+    border: 3px solid var(--max);
+    background-color: var(--color-background);
+    background: linear-gradient(to right, blue, green);   
+    color: var(--color-header);
+    padding: var(--space-md);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    font-family: var(--font-body);
+    font-size: var(--font-size-links);
+}
+
+
+

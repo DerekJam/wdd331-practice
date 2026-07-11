@@ -24,6 +24,7 @@
         border-radius: 0 !important;
         margin: 0 !important;
         padding: 0 !important;
+        font-size: medium !important;
     }
 
 
@@ -32,6 +33,7 @@
     body {
         font: 12pt/1.4 Georgia, 'Times New Roman', serif;
         color: #000 !important;
+        font-size: medium !important;
     }
 
     nav,
@@ -49,6 +51,7 @@
         color: #000 !important; 
         margin-top: .2rem !important;
         margin-bottom: .1rem !important;
+        font-size: larger !important;
     }
 
 
@@ -56,6 +59,7 @@
         background: none !important;
         display: block;
         margin-bottom: .5rem !important;
+        font-size: medium !important;
     }
 
 
@@ -70,6 +74,7 @@
         color: #000 !important;
         margin-bottom: .5rem !important;
         padding-bottom: .25rem !important;
+        font-size: medium !important;
     }
 
 
@@ -87,21 +92,25 @@
 
 h1 {
         margin-bottom: .15rem !important;
+        font-size: medium !important;
     }
 
-    h2 {
+h2 {
         margin-bottom: .15rem !important;
+        font-size: medium !important;
     }
 
-    p {
+p {
         margin-bottom: .3rem !important;
+        font-size: medium !important;
     }
 
-    .magic {
+.magic {
         margin-top: .8rem !important;
         margin-bottom: .3rem !important;
         font-weight: bold;
         color: #000 !important; 
+        font-size: medium !important;
     }
 
 

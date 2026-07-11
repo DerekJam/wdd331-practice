@@ -193,17 +193,6 @@ body {
 
 
 
-.btn2 {
-    border: 3px solid var(--max);
-    background-color: var(--color-background);
-    background: linear-gradient(to right, blue, green);
-    color: var(--color-header);
-    padding: var(--space-md);
-    border-radius: var(--radius);
-    box-shadow: var(--shadow-sm);
-    font-family: var(--font-body);
-    font-size: var(--font-size-links);
-}
 
 
 
@@ -212,8 +201,6 @@ body {
 
 
 .magic {
-    /* background, padding, border-radius, shadow */
-    /* Use a var() with a fallback value here. */
     border: 3px solid var(--cell-around);
     background-color: var(--color-background);
     background: linear-gradient(to right, blue, green);

@@ -405,7 +405,7 @@ div.status {
 
 
 .email {
-    border: 0;
+    border: 3px black;
     font-family: var(--font-body);
     min-height: 3lh;
     max-height: 10lh;
@@ -415,5 +415,10 @@ div.status {
     background-color: white !important;
     font-size: 1.00rem;
     color: black !important;
+    border-radius: var(--radius);
 }
 
+
+.email-primary:hover {
+  background: linear-gradient(to right, blue, green);
+}

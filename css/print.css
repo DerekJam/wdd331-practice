@@ -33,6 +33,18 @@
         color: #000;
     }
 
+
+    .card-grid {
+        background: transparent;
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 12pt;
+        line-height: 1.4;
+        max-width: 45em;
+        margin: 0 auto;
+        color: #000;
+    }
+
+
     figure,
     blockquote,
     pre,
@@ -40,12 +52,15 @@
         break-inside: avoid;
         display: block;
         margin-bottom: 1rem;
+        background: transparent;
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 12pt;
+        line-height: 1.4;
+        max-width: 45em;
+        margin: 0 auto;
+        color: #000;
     }
 
-        h2 {
-        break-before: page;
-        break-after: avoid;
-    }
 
 
     p {

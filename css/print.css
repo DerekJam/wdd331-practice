@@ -22,8 +22,8 @@
         border: none !important;
         box-shadow: none !important;
         border-radius: 0 !important;
-        margin-top: 1rem !important;
-        margin-bottom: .5rem !important;
+        margin-top: .2rem !important;
+        margin-bottom: .1rem !important;
     }
 
 
@@ -32,8 +32,8 @@
     body {
         font: 12pt/1.4 Georgia, 'Times New Roman', serif;
         color: #000 !important;
-        margin-top: 1rem !important;
-        margin-bottom: .5rem !important;
+        margin-top: .2rem !important;
+        margin-bottom: .1rem !important;
     }
 
     nav,
@@ -49,16 +49,16 @@
         background: none !important;
         max-width: 45em;
         color: #000 !important; 
-        margin-top: 1rem !important;
-        margin-bottom: .5rem !important;
+        margin-top: .2rem !important;
+        margin-bottom: .1rem !important;
     }
 
 
     .card-grid {
         background: none !important;
         display: block;
-        margin-top: 1rem !important;
-        margin-bottom: .5rem !important;
+        margin-top: .2rem !important;
+        margin-bottom: .1rem !important;
     }
 
 
@@ -71,8 +71,8 @@
         margin-bottom: 1rem;
         background: none !important;
         color: #000 !important;
-        margin-top: 1rem !important;
-        margin-bottom: .5rem !important;
+        margin-top: .2rem !important;
+        margin-bottom: .1rem !important;
     }
 
 
@@ -83,14 +83,14 @@
     }
 
 
-.card-tag { color: #000 !important; margin-top: 1rem !important;
-        margin-bottom: .5rem !important;}
-.card-link { color: #000 !important; margin-top: 1rem !important;
-        margin-bottom: .5rem !important;}
-.magic { color: #000 !important; margin-top: 1rem !important;
-        margin-bottom: .5rem !important;}
-.site-name { color: #000 !important; margin-top: 1rem !important;
-        margin-bottom: .5rem !important;}
+.card-tag { color: #000 !important; margin-top: .2rem !important;
+        margin-bottom: .1rem !important;}
+.card-link { color: #000 !important; margin-top: .2rem !important;
+        margin-bottom: .1rem !important;}
+.magic { color: #000 !important; margin-top: .2rem !important;
+        margin-bottom: .1rem !important;}
+.site-name { color: #000 !important; margin-top: .2rem !important;
+        margin-bottom: .1rem !important;}
 
 
 }

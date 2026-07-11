@@ -430,6 +430,6 @@ div.status {
 }
 
 .circle-small {
-    fill: green;
+    fill: none;
     stroke: currentColor;
 }

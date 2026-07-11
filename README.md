@@ -29,3 +29,4 @@ every push to main.
 - Meaningful Motion with Reduced-Motion Support (unit-6/motion/index.html)
 - Added Resume page
 - Added Contact page
+- Added Styling SVG with CSS demo page

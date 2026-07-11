@@ -16,10 +16,8 @@
     }
 
     nav,
-    footer,
-    .no-print,
-    aside {
-        display: none;
+    footer
+{        display: none;
     }
 
 
@@ -32,6 +30,7 @@
     .site-header {
         background: none !important;
         max-width: 45em;
+        color: #000 !important; 
     }
 
 
@@ -63,7 +62,7 @@
 .card-tag { color: #000 !important; }
 .card-link { color: #000 !important; }
 .magic { color: #000 !important; }
-
+.site-name { color: #000 !important; }
 
 
 }

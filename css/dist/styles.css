@@ -60,9 +60,9 @@ body {
     /* Use clamp() for padding to make it fluid. */
     background-color: var(--color-main-bgdark); 
     color: var(--color-gold); 
-    padding: clamp(var(--space-sm), var(--space-md), var(--space-lg)); 
-    border-radius: var(--radius); 
-    box-shadow: var(--shadow-sm);
+    /* padding: clamp(var(--space-sm), var(--space-md), var(--space-lg)); */
+    /* border-radius: var(--radius); */
+    /* box-shadow: var(--shadow-sm); */
 
 
 

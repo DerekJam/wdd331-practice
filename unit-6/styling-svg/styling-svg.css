@@ -394,3 +394,12 @@ div.status {
 
 
 
+
+
+/* Overrides fill="red" presentation attribute */
+circle {
+    fill: blue;
+}
+.icon-accent {
+    fill: var(--color-accent);
+}

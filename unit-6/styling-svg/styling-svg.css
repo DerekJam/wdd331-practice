@@ -419,6 +419,6 @@ div.status {
 }
 
 
-.email-primary:hover {
+.email:hover {
   background: linear-gradient(to right, blue, green);
 }

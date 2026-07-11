@@ -58,9 +58,11 @@
 body {
     /* font family, color, background, line-height, padding */
     /* Use clamp() for padding to make it fluid. */
-    background-color: var(--color-main-bgdark);
-    color: var(--color-gold);
-    padding: 0;
+    background-color: var(--color-main-bgdark); 
+    color: var(--color-gold); 
+    padding: clamp(var(--space-sm), var(--space-md), var(--space-lg)); 
+    border-radius: var(--radius); 
+    box-shadow: var(--shadow-sm);
 
 
 

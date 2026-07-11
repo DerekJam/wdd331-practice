@@ -417,8 +417,3 @@ div.status {
     color: black !important;
 }
 
-.feedback-form {
-    display: flex;
-    flex-direction: column !important;
-    gap: 1.5rem;
-}

@@ -27,3 +27,5 @@ every push to main.
 - Updated Card Grid 2 (unit-4/advanced2/snap-carousel.html)
 - Updated all pages HTML to reflect the adjustments made to variables.css in the css > tokens folder (for Unit 5 Part 1 assignment); also removed some redundancies in text from individual css files as part of the assignment.
 - Meaningful Motion with Reduced-Motion Support (unit-6/motion/index.html)
+- Added Resume page
+- Added Contact page

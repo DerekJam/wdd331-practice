@@ -5,8 +5,7 @@
         font-size: 12pt;
         line-height: 1.4;
         max-width: 45em;
-        margin: 0 auto;
-        color: #000;
+        color: #000 !important;
     }
 
     nav,
@@ -24,24 +23,22 @@
 
 
     .site-header {
-        background: transparent;
+        background: transparent !important;
         font-family: Georgia, 'Times New Roman', serif;
         font-size: 12pt;
         line-height: 1.4;
         max-width: 45em;
-        margin: 0 auto;
-        color: #000;
+        color: #000 !important;
     }
 
 
     .card-grid {
-        background: transparent;
+        background: transparent !important;
         font-family: Georgia, 'Times New Roman', serif;
         font-size: 12pt;
         line-height: 1.4;
         max-width: 45em;
-        margin: 0 auto;
-        color: #000;
+        color: #000 !important;
     }
 
 
@@ -57,8 +54,7 @@
         font-size: 12pt;
         line-height: 1.4;
         max-width: 45em;
-        margin: 0 auto;
-        color: #000;
+        color: #000 !important;
     }
 
 
@@ -67,5 +63,14 @@
         orphans: 3;
         widows: 3;
     }
+
+
+
+
+    @page {
+    margin: 1in;
+}
+
+
 
 }

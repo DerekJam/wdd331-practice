@@ -422,3 +422,15 @@ div.status {
 .email:hover {
   background: linear-gradient(to right, green, yellow);
 }
+
+
+
+.email-primary {
+    color: white;
+}
+
+.circle-small {
+    fill: green;
+    stroke: currentColor;
+    fill:none;
+}

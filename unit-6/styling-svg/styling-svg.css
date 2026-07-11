@@ -410,8 +410,8 @@ div.status {
     min-height: 3lh;
     max-height: 10lh;
     width: 50%;
-    max-width: 600px;
-    min-width: 300px;
+    max-width: 400px;
+    min-width: 200px;
     background-color: white !important;
     font-size: 1.00rem;
     color: black !important;

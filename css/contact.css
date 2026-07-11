@@ -440,7 +440,6 @@ textarea {
 
 
 .feedback-form {
-    background: red;
     display: flex;
     flex-direction: column !important;
     gap: 1.5rem;

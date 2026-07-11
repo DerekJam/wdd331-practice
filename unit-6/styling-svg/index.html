@@ -25,7 +25,7 @@
     <main>
 
 
-        <section class="magic">Circles and a Button</section>
+        <section class="magic">Circles and a Button 2</section>
 
         <section class="card-grid">
 
@@ -50,6 +50,45 @@
 
 
     </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--below from AI--> 
+<script>
+function sendEmail() {
+
+    // Get what the user typed
+    const comments = document.getElementById("comments").value;
+
+    // Your email address
+    const email = "ste17081@byui.edu";
+
+    // Email subject
+    const subject = "Website Comments";
+
+    // Build the mailto link
+    const mailtoLink =
+        "mailto:" + email +
+        "?subject=" + encodeURIComponent(subject) +
+        "&body=" + encodeURIComponent(comments);
+
+    // Open the user's email program
+    window.location.href = mailtoLink;
+}
+</script>
+ <!--below from AI--> 
+
+
 
 </body>
 </html>

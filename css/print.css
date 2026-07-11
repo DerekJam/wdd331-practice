@@ -5,6 +5,10 @@
     * {
         font-family: Georgia, 'Times New Roman', serif !important;
         color: #000 !important;
+        text-align: left !important;
+        border: none !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
     }
 
 
@@ -31,6 +35,7 @@
         background: none !important;
         max-width: 45em;
         color: #000 !important; 
+
     }
 
 

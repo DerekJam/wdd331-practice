@@ -201,7 +201,7 @@ body {
 
 /* This is for the section headers (Education, Professional, Volunteer Services, Writings, etc.) */
 .magic {
-    margin-top: 14rem;
+    margin-top: 4rem;
     border: 3px solid var(--cell-around);
     background-color: var(--color-background);
     background: linear-gradient(to right, blue, green);

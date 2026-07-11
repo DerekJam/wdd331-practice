@@ -1,10 +1,7 @@
 @media print {
     /* These rules apply only when printing */
     body {
-        font-family: Georgia, 'Times New Roman', serif;
-        font-size: 12pt;
-        line-height: 1.4;
-        max-width: 45em;
+        font: 12pt/1.4 Georgia, 'Times New Roman', serif;
         color: #000 !important;
     }
 
@@ -23,22 +20,14 @@
 
 
     .site-header {
-        background: transparent !important;
-        font-family: Georgia, 'Times New Roman', serif;
-        font-size: 12pt;
-        line-height: 1.4;
+        background: none !important;
         max-width: 45em;
-        color: #000 !important;
     }
 
 
     .card-grid {
-        background: transparent !important;
-        font-family: Georgia, 'Times New Roman', serif;
-        font-size: 12pt;
-        line-height: 1.4;
-        max-width: 45em;
-        color: #000 !important;
+        background: none !important;
+        display: block;
     }
 
 
@@ -49,11 +38,7 @@
         break-inside: avoid;
         display: block;
         margin-bottom: 1rem;
-        background: transparent;
-        font-family: Georgia, 'Times New Roman', serif;
-        font-size: 12pt;
-        line-height: 1.4;
-        max-width: 45em;
+        background: none !important;
         color: #000 !important;
     }
 
@@ -67,7 +52,7 @@
 
 
 
-    @page {
+@page {
     margin: 1in;
 }
 

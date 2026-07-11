@@ -9,54 +9,45 @@
         color: #000;
     }
 
-
-    .card-grid {
-        font-size: 12pt;
-        background-color: blue;
-    }
-
-
-    .card {
-        grid-row: span 0;
-        grid-template-rows: subgrid;
-    }
-
-    .card-header {
-        font-size: 12pt;
-    }
-    
-    .actions {
-        font-size: 12pt;
-    }
-    
-    .btn2 {
-        font-size: 12pt;
-    }
-
-
-    a[href]::after {
-        content: " (" attr(href) ")";
-        font-size: 0.9em;
-        color: #555;
-    }
-
-
-
-
-
     nav,
     footer,
-    .site-header {
-        font-family: Georgia, 'Times New Roman', serif;
-        font-size: 12pt;
-        line-height: 1.4;
-        max-width: 45em;
-        margin: 0 auto;
-        color: #000;
-    }
+    .site-header,
     .no-print,
     button,
     aside {
         display: none;
     }
+
+
+    a[href^="/"]::after,
+    a[href^="#"]::after {
+        content: none;
+    }
+
+
+    .brand-header {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+        background: #006eb6;
+        color: #fff;
+    }
+
+    figure,
+    blockquote,
+    pre,
+    .card {
+        break-inside: avoid;
+    }
+
+        h2 {
+        break-before: page;
+        break-after: avoid;
+    }
+
+
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+
 }

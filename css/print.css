@@ -5,12 +5,24 @@
     }
 
 
-    .h1 {
+    .card-grid {
         font-size: 12pt;
     }
 
 
-    .h2 {
+    .card {
+        font-size: 12pt;
+    }
+
+    .card-header {
+        font-size: 12pt;
+    }
+    
+    .actions {
+        font-size: 12pt;
+    }
+    
+    .btn2 {
         font-size: 12pt;
     }
 

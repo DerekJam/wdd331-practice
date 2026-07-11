@@ -1,5 +1,15 @@
 @media print {
     /* These rules apply only when printing */
+
+
+    * {
+        font-family: Georgia, 'Times New Roman', serif !important;
+        color: #000 !important;
+    }
+
+
+
+
     body {
         font: 12pt/1.4 Georgia, 'Times New Roman', serif;
         color: #000 !important;

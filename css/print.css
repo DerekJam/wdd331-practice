@@ -12,7 +12,6 @@
     nav,
     footer,
     .no-print,
-    button,
     aside {
         display: none;
     }
@@ -36,6 +35,8 @@
     pre,
     .card {
         break-inside: avoid;
+        display: block;
+        margin-bottom: 1rem;
     }
 
         h2 {

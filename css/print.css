@@ -1,0 +1,14 @@
+@media print {
+    /* These rules apply only when printing */
+    body {
+        font-size: 12pt;
+    }
+    nav,
+    footer,
+    .site-header,
+    .no-print,
+    button,
+    aside {
+        display: none;
+    }
+}

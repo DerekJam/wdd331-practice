@@ -397,6 +397,6 @@ div.status {
 
 
 /* Overrides fill="red" presentation attribute */
-circle {
+.circle-time {
     fill: yellow;
 }

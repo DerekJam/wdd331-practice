@@ -61,8 +61,7 @@ body {
     background-color: var(--color-main-bgdark);
     color: var(--color-gold);
     padding: 0;
-    border-radius: var(--radius);
-    box-shadow: var(--shadow-sm);
+
 
 
     a {

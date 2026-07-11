@@ -401,5 +401,5 @@ circle {
     fill: blue;
 }
 .icon-accent {
-    fill: var(--color-accent);
+    fill: green;
 }

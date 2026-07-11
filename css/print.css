@@ -17,7 +17,8 @@
 
 
     .card {
-        font-size: 12pt;
+        grid-row: span 0;
+        grid-template-rows: subgrid;
     }
 
     .card-header {

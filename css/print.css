@@ -83,10 +83,14 @@
     }
 
 
-.card-tag { color: #000 !important; }
-.card-link { color: #000 !important; }
-.magic { color: #000 !important; }
-.site-name { color: #000 !important; }
+.card-tag { color: #000 !important; margin-top: 1rem !important;
+        margin-bottom: .5rem !important;}
+.card-link { color: #000 !important; margin-top: 1rem !important;
+        margin-bottom: .5rem !important;}
+.magic { color: #000 !important; margin-top: 1rem !important;
+        margin-bottom: .5rem !important;}
+.site-name { color: #000 !important; margin-top: 1rem !important;
+        margin-bottom: .5rem !important;}
 
 
 }

@@ -405,7 +405,7 @@ div.status {
 
 
 .email {
-    border: 3px black;
+    border: 3px solid black;
     font-family: var(--font-body);
     min-height: 3lh;
     max-height: 10lh;

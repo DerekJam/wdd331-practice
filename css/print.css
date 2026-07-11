@@ -24,8 +24,6 @@
 
 
     .site-header {
-        print-color-adjust: exact;
-        -webkit-print-color-adjust: exact;
         background: transparent;
         font-family: Georgia, 'Times New Roman', serif;
         font-size: 12pt;

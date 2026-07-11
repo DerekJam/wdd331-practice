@@ -193,8 +193,7 @@ body {
 
 .btn2 {
     border: 3px solid var(--max);
-    background-color: var(--color-background);
-    background: linear-gradient(to right, blue, green);   
+    background-color: linear-gradient(to right, blue, green);   
     color: var(--color-header);
     padding: var(--space-md);
     border-radius: var(--radius);
